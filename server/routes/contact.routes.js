@@ -7,8 +7,8 @@ import {
 
 const contactRouter = express.Router();
 
-contactRouter.route("/createContact").post(addContact);
-contactRouter.route("/getContacts").get(getAllContacts);
-contactRouter.route("/deleteContacts").delete(deleteAllContacts);
+contactRouter.route("/create").post(addContact);
+contactRouter.route("/get").get(getAllContacts);
+contactRouter.route("/delete").delete(deleteAllContacts);
 
 export default contactRouter;

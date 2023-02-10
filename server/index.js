@@ -6,7 +6,7 @@ import { errorMiddleware, notFound } from "./middleware/errorMiddleware.js";
 // Routes
 import contactRouter from "./routes/contact.routes.js";
 
-const PORT = 8000 || process.env.PORT;
+const PORT = 8001 || process.env.PORT;
 
 const app = express();
 

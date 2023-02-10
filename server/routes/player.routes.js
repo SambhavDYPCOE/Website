@@ -5,7 +5,7 @@ import {
   getAllPlayers,
   getPlayerById,
   deletePlayerById,
-} from "../controllers/contact.controller.js";
+} from "../controllers/player.controller.js";
 
 const playerRouter = express.Router();
 
