@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faInstagram,
-  faYoutubej,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../../assets/Logo.png";

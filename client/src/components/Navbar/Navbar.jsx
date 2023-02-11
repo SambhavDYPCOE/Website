@@ -127,9 +127,8 @@ const Navbar = () => {
           </ul>
 
           <Link target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn}>Buy Tickets</button>
+            <button className={classes.btn}>Join Us</button>
           </Link>
-
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -146,10 +145,10 @@ const Navbar = () => {
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
           <Link target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn1}>Buy Tickets</button>
+            <button className={classes.btn1}>Join Us</button>
           </Link>
 
- {/* Mobile Page */}
+          {/* Mobile Page */}
 
           <ul className={classes.mobileNav}>
             <li>
@@ -185,7 +184,16 @@ const Navbar = () => {
               </Drop>
             </li>
             <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>
-              {drop ? <Dropdown click={() => {setDrop(!drop); setMobile(!mobile)}} /> : ""}
+              {drop ? (
+                <Dropdown
+                  click={() => {
+                    setDrop(!drop);
+                    setMobile(!mobile);
+                  }}
+                />
+              ) : (
+                ""
+              )}
               Events
               <FontAwesomeIcon
                 size="sm"

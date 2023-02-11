@@ -1,75 +1,65 @@
-import { React, useState } from "react";
+import { useState } from "react";
 import classes from "./Faq.module.css";
 
-const data = [
+const questions = [
   {
-    question: "",
-    answer: "",
+    question: "How can i participate in KARMA 22?",
+    answer:
+      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (21, 22, 23 MAY 2022) of KARMA 22",
   },
   {
-    question: "",
-    answer: "",
+    question: "What are the dates of KARMA 22?",
+    answer: "May 21, 22, 23. Events will happen from 9:00 am to 10:00 pm",
   },
   {
-    question: "",
-    answer: "",
+    question: "What is the entry fees for KARMA 22?",
+    answer: "The entry for karma 22 is 300(day 2), 400(day 3), 600(day 2&3)",
   },
   {
-    question: "",
-    answer: "",
+    question: "Is it possible for one participant to attend any workshop?",
+    answer:
+      "No, participants can only attend registered workshops due to the scheduling of time.",
   },
 ];
 
 const Faq = () => {
-<<<<<<< HEAD
-  return (
-  <>
-  <div className={classes.questions}></div>
-  </>
-=======
-  const [selected, setSelected] = useState(null);
+  const [clicked, setClicked] = useState(null);
 
   const toggle = (i) => {
-    if (selected === i) {
-      return setSelected(null);
+    if (clicked === i) {
+      return setClicked(null);
     }
 
-    setSelected(i);
+    setClicked(i);
   };
 
   return (
-    <div className={classes.outerfaq}>
-      <div className={classes.firstrow}>
-        <div className={classes.faq_heading}>
-          <h3 className={classes.faq_heading1}>DO YOU HAVE SOME QUESTIONS?</h3>
-          <p className={classes.faq_heading2}>Lorem ipsum dolor sit amet.</p>
-        </div>
-        <div className={classes.wrapper}>
-          <div className={classes.accordion}>
-            {data.map((item, i) => (
-              <div key={i} className={classes.item}>
-                <div className={classes.ac_title} onClick={() => toggle(i)}>
-                  <h2 className={classes.faq_question}>{item.question}</h2>
-                  <span className={classes.faq_sign}>
-                    {selected === i ? "-" : "+"}
-                  </span>
-                </div>
-                <div
-                  className={
-                    selected === i
-                      ? `${classes.content} ${classes.show}`
-                      : `${classes.content}`
-                  }
-                >
-                  {item.answer}
-                </div>
+    <section className={classes.faqSection}>
+      <div className={classes.heading}>FAQ</div>
+      <div className={classes.faq}>
+        {questions.map((ques, i) => {
+          return (
+            <div className={classes.single} onClick={() => toggle(i)}>
+              <div className={classes.question}>{ques.question}</div>
+              <div
+                className={`${
+                  clicked === i ? classes.answer : classes.noAnswer
+                }`}
+              >
+                {ques.answer}
               </div>
-            ))}
-          </div>
-        </div>
+              <span className={classes.btn}>+</span>
+            </div>
+          );
+        })}
+
+        {/* <div className={classes.single}>
+                <div className={classes.question}>How are you?</div>
+                <div className={classes.answer}>I am fine</div>
+                <span className={classes.btn}>+</span>
+            </div> */}
       </div>
-    </div>
->>>>>>> a4f9e0da1327692d3ee5422e2da2da29fdb88950
+    </section>
   );
 };
 
