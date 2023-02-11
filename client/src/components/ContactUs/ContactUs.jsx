@@ -37,10 +37,13 @@ const ContactUs = () => {
           <div className={classes.mapBox}>
             <iframe
               className={classes.map}
-              title="Kmct Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.153609468383!2d75.95371039076552!3d11.31224067999375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba643af748ee911%3A0x542a35d383bb1999!2sKMCT%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1652027577733!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4809.059309848436!2d73.76092887672722!3d18.649282832139026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9f1ca8dab03%3A0x6237cfbd36f9acf9!2sD.Y.%20Patil%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1676150863219!5m2!1sen!2sin"
+              // width="600"
+              // height="450"
+              // style="border:0;"
+              // allowfullscreen=""
               loading="lazy"
-              style={{ border: 0 }}
+              referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

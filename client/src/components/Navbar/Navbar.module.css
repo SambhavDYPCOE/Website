@@ -1,12 +1,14 @@
 .header {
   position: fixed;
   width: 95%;
-  /* left: 50%; */
-  /* transform: translate(-50%);tex */
+  left: 50%;
+  transform: translate(-50%);
   padding: 3.3rem 2.5rem;
   color: #fff;
   z-index: 100;
   transition: all 0.4s ease-in-out;
+  background-color: transparent;
+  /* top: 3%; */
 }
 
 .scrolledHeader {
@@ -75,7 +77,8 @@
   height: 3.5px;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+
   transform-origin: bottom right;
   transition: transform 0.25s ease-in-out;
 }
@@ -102,7 +105,8 @@
   text-decoration: none;
   margin-right: 3rem;
   cursor: pointer;
-  background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
   color: transparent;
@@ -110,7 +114,7 @@
 }
 
 .btn {
-  background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
   padding: 0.9rem 1.3rem;
   border: none;
   border-radius: 7px;
@@ -153,7 +157,7 @@
   display: inline;
   padding: 2rem;
   font-size: 2.7rem;
-  background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
   color: transparent;
@@ -174,7 +178,8 @@
   }
 
   .btn1 {
-    background-image: linear-gradient(to bottom right, #09b326, #32b4ed);
+    background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+
     padding: 0.9rem 1.3rem;
     border: none;
     border-radius: 5px;

@@ -8,7 +8,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import { HashLink as Link } from "react-router-hash-link";
-import Dropdown from "./Dropdown";
+// import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../../assets/Logo.png";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   const Drop = Scroll.Link;
   const [scrolled, isScrolled] = useState(false);
   const [mobile, setMobile] = useState(false);
-  const [drop, setDrop] = useState(false);
+  // const [drop, setDrop] = useState(false);
 
   window.onscroll = () => {
     isScrolled(window.pageYOffset === 0 ? false : true);
@@ -57,9 +57,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="/#home">
+                <Link className={classes.homeLink} to="/">
                   Home
-                </HashLink>
+                </Link>
               </Drop>
             </li>
             <li className={classes.navLink}>
@@ -77,23 +77,25 @@ const Navbar = () => {
                 </HashLink>
               </Drop>
             </li>
-            <li
-              className={`${classes.dropLink}`}
-              onClick={() => setDrop(!drop)}
-            >
-              {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""}
-              Events
-              <FontAwesomeIcon
-                size="sm"
-                style={{
-                  display: "inline-block",
-                  marginLeft: ".3rem",
-                  color: "white",
-                }}
-                icon={faArrowDown}
-                fade
-              />
-            </li>
+            <Link to="/events">
+              <li
+                className={`${classes.dropLink}`}
+                // onClick={() => setDrop(!drop)}
+              >
+                {/* {drop ? <Dropdown click={() => setDrop(!drop)} /> : ""} */}
+                Events
+                <FontAwesomeIcon
+                  size="sm"
+                  style={{
+                    display: "inline-block",
+                    marginLeft: ".3rem",
+                    color: "white",
+                  }}
+                  icon={faArrowDown}
+                  fade
+                />
+              </li>
+            </Link>
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
@@ -183,8 +185,12 @@ const Navbar = () => {
                 </HashLink>
               </Drop>
             </li>
-            <li className={`${classes.mobLink}`} onClick={() => setDrop(!drop)}>
-              {drop ? (
+            <Link to="/events">
+              <li
+                className={`${classes.mobLink}`}
+                // onClick={() => setDrop(!drop)}
+              >
+                {/* {drop ? (
                 <Dropdown
                   click={() => {
                     setDrop(!drop);
@@ -193,19 +199,20 @@ const Navbar = () => {
                 />
               ) : (
                 ""
-              )}
-              Events
-              <FontAwesomeIcon
-                size="sm"
-                style={{
-                  display: "inline-block",
-                  marginLeft: ".3rem",
-                  color: "white",
-                }}
-                icon={faArrowDown}
-                fade
-              />
-            </li>
+              )} */}
+                Events
+                <FontAwesomeIcon
+                  size="sm"
+                  style={{
+                    display: "inline-block",
+                    marginLeft: ".3rem",
+                    color: "white",
+                  }}
+                  icon={faArrowDown}
+                  fade
+                />
+              </li>
+            </Link>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}

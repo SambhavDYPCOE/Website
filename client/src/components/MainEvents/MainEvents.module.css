@@ -1,0 +1,15 @@
+.events_section {
+  background: url(./backGround.svg);
+  width: 100vw;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url("./Hero.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  padding: 150px 50px;
+}
