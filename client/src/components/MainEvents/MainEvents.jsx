@@ -20,9 +20,12 @@ const MainEvents = () => {
   return (
     <>
       <div className={classes.events_section}>
-        {eventsData.map((eventData, i) => {
-          return <EventCard eventData={eventData} key={i} />;
-        })}
+        <h1 className={classes.heading}>Events</h1>
+        <div className={classes.events_container}>
+          {eventsData.map((eventData, i) => {
+            return <EventCard eventData={eventData} key={i} />;
+          })}
+        </div>
       </div>
     </>
   );
