@@ -45,6 +45,7 @@
     width: 49%;
     height: 100%;
     overflow: scroll;
+    overflow-x: hidden;
     padding: 16px;
     color: white;
 }
