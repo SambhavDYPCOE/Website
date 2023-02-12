@@ -6,6 +6,7 @@ import Footer from "../src/components/Footer/Footer";
 import MainEvents from "./components/MainEvents/MainEvents";
 import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
+import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/" element={<Homepage />} />
         <Route path="/events" element={<MainEvents />} />
         <Route path="/events/:eventId" element={<MainEvents />} />
+        <Route path="/singleevent" element={<SingleEventPage />} />
         {/*  <Route path="/contact" element={<Contact />} />
           <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
