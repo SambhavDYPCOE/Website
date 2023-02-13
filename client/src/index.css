@@ -29,6 +29,7 @@ body {
   height: 100vh;
   transition: 0.5s ease;
   scroll-behavior: smooth;
+  /* background: url(./assets/backGround.svg); */
 }
 a {
   all: unset;

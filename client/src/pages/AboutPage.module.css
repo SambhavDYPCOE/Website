@@ -1,0 +1,12 @@
+.about_page {
+  padding-top: 100px;
+  background: url(../assets/backGround.svg);
+  padding: 150px 50px;
+  width: 100vw;
+}
+
+.schedule_section {
+  background: url(../assets/backGround.svg);
+  padding: 150px 50px;
+  width: 100vw;
+}
