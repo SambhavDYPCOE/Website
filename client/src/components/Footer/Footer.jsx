@@ -3,14 +3,14 @@ import sambhavLogo from "../../assets/Logo.png";
 import grabbitslogo from "../../assets/grabbits.png";
 import classes from "./Footer.module.css";
 
-const sambhavinsta = "";
+const sambhavinsta = "https://www.instagram.com/sambhav_dypcoe/";
 const sambhavlinkedin = "";
 // const sambhavitwitter=''
 
-const grabbitinsta = "";
+const grabbitinsta = "https://www.instagram.com/grabbits_/";
 const grabbitlinkedin = "";
 const grabbittwitter = "";
-const grabbitwebsite = "";
+const grabbitwebsite = "https://grabbits.vercel.app/";
 
 const spiderurl = "";
 const saurabh = "";

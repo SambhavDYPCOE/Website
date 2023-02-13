@@ -73,9 +73,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#about">
+                <Link className={classes.homeLink} to="/about">
                   About
-                </HashLink>
+                </Link>
               </Drop>
             </li>
             <Link to="/events">
@@ -195,9 +195,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#about">
+                <Link className={classes.homeLink} to="/about">
                   About
-                </HashLink>
+                </Link>
               </Drop>
             </li>
             <Link to="/events">

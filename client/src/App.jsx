@@ -8,6 +8,7 @@ import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
 import Schedule from "./pages/Schedule";
+import AboutPage from "./pages/AboutPage";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 
@@ -46,6 +47,7 @@ const App = () => {
         <Route path="/events" element={<MainEvents />} />
         <Route path="/events/:eventId" element={<SingleEventPage />} />
         <Route path="/schedule" element={<Schedule />} />
+        <Route path="/about" element={<AboutPage />} />
         {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
         {/* <Route path="/" element={<Landing />}></Route>  */}
