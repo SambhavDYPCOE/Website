@@ -29,7 +29,7 @@ const SingleEventPage = () => {
       <div className={classes.singleEvent}>
         <div className={classes.singleEventCard}>
           <div className={classes.col1}>
-            <img className={classes.eventPoster} src={sample} alt="sample" />
+            <img className={classes.eventPoster} src={image} alt="eventName" />
           </div>
           <div className={classes.col2}>
             <h1 className={classes.eventHeading}>{name}</h1>
@@ -37,10 +37,20 @@ const SingleEventPage = () => {
               <h2 className={classes.heading}>Description</h2>
               <p className={classes.content}>{description}</p>
             </div>
+            <div className={classes.rowcol}>
+              <div className={classes.subheading}>
+                <h2 className={classes.heading}>Team</h2>
+                <p className={classes.content}>{team}</p>
+              </div>
+              <div className={classes.subheading}>
+                <h2 className={classes.heading}>Fees</h2>
+                <p className={classes.content}>{fees}</p>
+              </div>
+            </div>
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Rules and Regulations</h2>
               <ul>
-                {rules.map((rule, i) => {
+                {rules?.map((rule, i) => {
                   return (
                     <li key={i} className={classes.content}>
                       {rule}
@@ -50,9 +60,9 @@ const SingleEventPage = () => {
               </ul>
             </div>
             <div className={classes.subheading}>
-              <h2 className={classes.heading}>Prizes</h2>
+              <h2 className={classes.headingp}>Prizes</h2>
               <ul>
-                {prizes.map((prize, i) => {
+                {prizes?.map((prize, i) => {
                   return (
                     <li key={i} className={classes.content}>
                       {prize}
@@ -62,20 +72,12 @@ const SingleEventPage = () => {
               </ul>
             </div>
             <div className={classes.subheading}>
-              <h2 className={classes.heading}>Team</h2>
-              <p className={classes.content}>{team}</p>
-            </div>
-            <div className={classes.subheading}>
-              <h2 className={classes.heading}>Fees</h2>
-              <p className={classes.content}>{fees}</p>
-            </div>
-            <div className={classes.subheading}>
               <h2 className={classes.heading}>Location</h2>
               <p className={classes.content}>{location}</p>
             </div>
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Contact Info</h2>
-              {contactInfo.map((contact, i) => {
+              {contactInfo?.map((contact, i) => {
                 return (
                   <p key={i} className={classes.content}>
                     {contact}
@@ -85,7 +87,7 @@ const SingleEventPage = () => {
             </div>
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Note</h2>
-              {note.map(() => {
+              {note?.map(() => {
                 return <p className={classes.content}>{note}</p>;
               })}
             </div>

@@ -30,6 +30,7 @@ body {
   transition: 0.5s ease;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  /* background: url(./assets/backGround.svg); */
 }
 a {
   all: unset;

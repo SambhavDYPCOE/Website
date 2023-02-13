@@ -4,12 +4,12 @@ import grabbitslogo from "../../assets/grabbits.png";
 import classes from "./Footer.module.css";
 
 const sambhavinsta = "https://www.instagram.com/sambhav_dypcoe/";
-const sambhavlinkedin = "";
+const sambhavlinkedin = "https://www.linkedin.com/company/sambhav-tech-fest/";
 // const sambhavitwitter=''
 
 const grabbitinsta = "https://www.instagram.com/grabbits_/";
-const grabbitlinkedin = "";
-const grabbittwitter = "";
+const grabbitlinkedin = "https://www.linkedin.com/company/grabbits/";
+const grabbittwitter = "https://twitter.com/grabbits_";
 const grabbitwebsite = "https://grabbits.vercel.app/";
 
 const spiderurl = "";

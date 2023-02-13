@@ -10,15 +10,15 @@ const About = () => {
           <h3 className={classes.heading}>About</h3>
           <h2 className={classes.heading1}>SAMBHAV 23</h2>
           <p className={classes.para}>
-            This name reflects the spirit of the festival and its mission to
-            provide a platform for individuals to push their limits and
-            challenge themselves to turn their ideas and innovative projects
-            into reality. The festival offers a diverse range of technical
-            events and competitions designed to showcase the talents and skills
-            of participants while fostering creativity, teamwork, and
-            problem-solving abilities. With its focus on technology and
-            innovation, Sambhav truly embodies its name and serves as a catalyst
-            for making the impossible possible.
+            Sambhav is a technical festival offering a diverse range of events
+            and competitions focused on technology and innovation. It provides a
+            platform for individuals to showcase their skills, learn from
+            others, and foster creativity, teamwork, and problem-solving
+            abilities. By exposing attendees to the latest advancements in
+            technology, Sambhav helps broaden their knowledge and skillset,
+            making it a fun, engaging, and enriching experience for all
+            attendees. Get ready to be a part of the biggest technical
+            extravaganza of the year – Sambhav!
           </p>
 
           {/* <p className={classes.para}>
