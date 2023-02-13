@@ -1,4 +1,5 @@
-import test from "./Events/test.png";
+// import test from "./Events/test.png";
+import test from "./sample.jpeg";
 export const eventsData = [
   {
     id: 1,

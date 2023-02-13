@@ -55,6 +55,9 @@
   font-weight: 600;
   margin-bottom: 16px;
 }
+.rowcol {
+  display: flex;
+}
 
 .subheading {
   margin: 20px;
@@ -64,9 +67,17 @@
   gap: 8px;
 }
 
-.heading {
+.heading,
+.headingp {
   font-size: 24px;
   font-weight: 500;
+  background-image: linear-gradient(to bottom right, #3232ff, #09b9ff);
+
+  padding: 4px 12px 4px 12px;
+  border-radius: 4px;
+}
+.headingp {
+  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
 }
 
 .content {
@@ -74,7 +85,7 @@
   font-weight: 300;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .singleEventCard {
     display: flex;
     flex-direction: column;
