@@ -11,6 +11,7 @@ import { HashLink as Link } from "react-router-hash-link";
 // import Dropdown from "./Dropdown";
 import { HashLink } from "react-router-hash-link";
 import Logo from "../../assets/Logo.png";
+import GrabBitBtn from "../common/GrabBitBtn/GrabBitBtn";
 
 const Scroll = require("react-scroll");
 
@@ -106,9 +107,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#ambassador">
-                  Register
-                </HashLink>
+                <Link className={classes.homeLink} to="/schedule">
+                  Schedule
+                </Link>
               </Drop>
             </li>
             <li className={classes.navLink}>
@@ -128,9 +129,16 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn}>Join Us</button>
-          </Link>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://grabbits.vercel.app/"
+          >
+            {/* <button className={classes.btn}>GrabBit</button> */}
+            <div className={classes.btn}>
+              <GrabBitBtn label="GrabBit" />
+            </div>
+          </a>
 
           <div className={classes.hamburger} onClick={() => setMobile(!mobile)}>
             {mobile ? (
@@ -146,9 +154,16 @@ const Navbar = () => {
         </div>
 
         <div className={`${!mobile ? classes.none : classes.mobileBox}`}>
-          <Link target="_blank" rel="noopener noreferrer" to="/tickets">
-            <button className={classes.btn1}>Join Us</button>
-          </Link>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://grabbits.vercel.app/"
+          >
+            {/* <button className={classes.btn1}>GrabBit</button> */}
+            <div className={classes.btn1}>
+              <GrabBitBtn label="GrabBit" />
+            </div>
+          </a>
 
           {/* Mobile Page */}
 
@@ -224,9 +239,9 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#ambassador">
-                  Register
-                </HashLink>
+                <Link className={classes.homeLink} to="/schedule">
+                  Schedule
+                </Link>
               </Drop>
             </li>
             <li>

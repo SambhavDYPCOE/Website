@@ -21,6 +21,7 @@ const MainEvents = () => {
     <>
       <div className={classes.events_section}>
         <h1 className={classes.heading}>Events</h1>
+        <img src="x" alt="" />
         <div className={classes.events_container}>
           {eventsData.map((eventData, i) => {
             return <EventCard eventData={eventData} key={i} />;

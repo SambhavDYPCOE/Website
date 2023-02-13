@@ -1,124 +1,247 @@
 import React from "react";
+import sambhavLogo from "../../assets/Logo.png";
+import grabbitslogo from "../../assets/grabbits.png";
 import classes from "./Footer.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import { HashLink } from "react-router-hash-link";
-import Logo from "../../assets/Logo.png";
 
+const sambhavinsta = "";
+const sambhavlinkedin = "";
+// const sambhavitwitter=''
+
+const grabbitinsta = "";
+const grabbitlinkedin = "";
+const grabbittwitter = "";
+const grabbitwebsite = "";
+
+const spiderurl = "";
+const saurabh = "";
+const sanyog = "";
+
+const grabbiturl = "https://www.grabbitdypcoe.in";
 const Footer = () => {
   return (
-    <footer className={classes.footer}>
-      <div className={classes.row}>
-        <div className={classes.col}>
-          <img className={classes.karma} src={Logo} alt="Karma logo" />
-          <p className={classes.para}>
-            Annual national level techno managerial cultural extravaganza of the
-            KMCT College of Engineering. Karma enables brilliant minds to
-            compete, discuss ideas, educate others about new technical
-            breakthroughs, and be a part of the tech platform.
+    <div className={classes.footer_outer}>
+      <div className={classes.footer}>
+        <div className={classes.footer_first}>
+          <div className={classes.footer_sambhav_image_div}>
+            <div>
+              <img
+                className={classes.footer_sambhav_image}
+                src={sambhavLogo}
+                alt="sambhavLogo"
+              ></img>
+            </div>
+            <div>
+              {/* <h1 className={classes.footer_sambhav}>SAMBHAV'23</h1> */}
+            </div>
+          </div>
+          <p className={classes.footer_sambhav_description}>
+            Sambhav'23 is the largest technical festival of Pune. Let&apos;s
+            make a Tech move.
           </p>
+          <div className={classes.footer_social_item}>
+            <div>
+              <a
+                href={sambhavinsta}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/fluency/48/ffffff/instagram-new.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href={sambhavlinkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/color/48/ffffff/linkedin-circled--v1.png"
+                  alt=""
+                />
+              </a>{" "}
+            </div>
+            {/* <div>
+              <a
+                href={sambhavtwitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}>
+                <img className={classes.footer_social_link} src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png" alt="" />
+              </a>  </div> */}
+          </div>
         </div>
-
-        <div className={classes.col}>
-          <h3>Contact us</h3>
-          <p>D.Y. Patil College of Engineering, Akurdi, Pune</p>
-          <p>NITC - P.O</p>
-          <p>Kozhikode - 673601</p>
-          <p className={classes.email}>karmakmct22@gmail.com</p>
-          <p className={classes.contactNo}>Shamsudheen C - 7012 824 370</p>
-          <p className={classes.contactNo}>Sithara beegam - 8592 002 134</p>
+        <div className={classes.footer_first}>
+          <div className={classes.footer_sambhav_image_div}>
+            <div>
+              <a
+                href={grabbiturl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_grabbit_image}
+                  src={grabbitslogo}
+                  alt="sambhavLogo"
+                ></img>
+              </a>
+            </div>
+            <div>
+              {/* <h1 className={classes.footer_sambhav}>GrabBit</h1> */}
+            </div>
+          </div>
+          <p className={classes.footer_sambhav_description}>
+            Get the latest updates about internships, hackathons, job openings
+            and much more..
+          </p>
+          <div className={classes.footer_social_item}>
+            <div>
+              <a
+                href={grabbitinsta}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/fluency/48/ffffff/instagram-new.png"
+                  alt=""
+                />
+              </a>{" "}
+            </div>
+            <div>
+              <a
+                href={grabbitlinkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/color/48/ffffff/linkedin-circled--v1.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href={grabbittwitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png"
+                  alt=""
+                />
+              </a>{" "}
+            </div>
+            <div>
+              <a
+                href={grabbitwebsite}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={classes.footer_a_link}
+              >
+                <img
+                  className={classes.footer_social_link}
+                  src="https://img.icons8.com/color/48/ffffff/domain--v1.png"
+                  alt="zsdsff"
+                />
+              </a>
+            </div>
+          </div>
         </div>
-
-        <div className={`${classes.col} ${classes.links}`}>
-          <h3>Links</h3>
-          <ul>
-            <HashLink
-              to="/#about"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>About</li>
-            </HashLink>
-
-            <HashLink
-              to="/#contact"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Contact us</li>
-            </HashLink>
-
-            <a
-              href="https://docs.google.com/document/d/1cJfjOhoEfW_JhiMF-tUJXNWwRKxSIN-KrIlJCnh0EZ4/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Privacy policy</li>
-            </a>
-
-            <a
-              href="https://docs.google.com/document/d/1VOnAodNTeF8ShOCxxVb_AXnxLKg2jKZCUY0QxbQd4nE/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Terms and condition</li>
-            </a>
-
-            <a
-              href="https://docs.google.com/document/d/1K0En27BTf6KJB2eHZmnr7BAMDWK8T83--8HJOu-GkA0/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Refund & Cancellation Policy</li>
-            </a>
-            <a
-              href="https://docs.google.com/document/d/1DVGB-PePPd7XCNW4LAJ6qBShudKzBJtuaAaiC6Q1DWY/edit?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
-            >
-              <li>Shipping Policy</li>
-            </a>
-          </ul>
-        </div>
-
-        <div className={classes.col}>
-          <h3>Follow us on</h3>
-          <div className={classes.socialIcons}>
-            <a
-              href="https://www.instagram.com/dypcollegeofengineering/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon className={classes.icons} icon={faInstagram} />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCKM314A0KndJAEpvEnaxO2g"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon className={classes.icons} icon={faYoutube} />
-            </a>
-            <a
-              href="https://www.facebook.com/karma.kmct/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon className={classes.icons} icon={faFacebook} />
-            </a>
+        {/* <div className={classes.footer}second'>
+          <h2 className={classes.footer}menu-heading'>Menu</h2>
+          <h6 className={classes.footer}page-link'>About US</h6>
+          <h6 className={classes.footer}page-link'>Term of Use</h6>
+          <h6 className={classes.footer}page-link'>Privary Policy</h6>
+          <h6 className={classes.footer}page-link'>Order History</h6>
+          <h6 className={classes.footer}page-link'>Return policy</h6>
+        </div> */}
+        <div className={classes.footer_third}>
+          <h2 className={classes.footer_menu_heading}>Contact Us</h2>
+          <div className={classes.footer_contact}>
+            <div className={classes.footer_contact_item_image}>
+              <img
+                className={classes.footer_contact_image}
+                src="https://img.icons8.com/ios-filled/50/ffffff/marker.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>D.Y. Patil College of Engineering, Pune</p>
+            </div>
+          </div>
+          <div className={classes.footer_contact}>
+            <div>
+              <img
+                className={classes.footer_contact_image}
+                src="https://img.icons8.com/ios-filled/50/ffffff/outgoing-call.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>7447819903</p>
+            </div>
+          </div>
+          <div className={classes.footer_contact}>
+            <div>
+              <img
+                className={classes.footer_contact_image}
+                src="https://img.icons8.com/glyph-neue/64/ffffff/gmail.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p>sambhavdypcoeofficial@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
-      <hr className={classes.hr} />
-      <p className={classes.copyright}>
-        Sambhav'23 | Copyright &#169; All rights reserved.
-      </p>
-    </footer>
+      <div className={classes.footer_creator_div}>
+        <h4 className={classes.footer_creator}>
+          Website designed and created by{" "}
+          <a
+            href={spiderurl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            @Om Gawande
+          </a>{" "}
+          ,{" "}
+          <a
+            href={saurabh}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            {" "}
+            @Saurabh Barde
+          </a>{" "}
+          and{" "}
+          <a
+            href={sanyog}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            {" "}
+            @Sanyog Mahajan
+          </a>{" "}
+        </h4>
+      </div>
+    </div>
   );
 };
 

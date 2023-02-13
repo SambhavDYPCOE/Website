@@ -5,11 +5,10 @@
 }
 .heading {
   text-align: center;
-  font-size: 12vw;
-
+  font-size: 6vw;
   color: #fff;
   /* background-clip: text; */
-  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+  /* background-image: linear-gradient(to bottom right, #ff00ee, #ff0932); */
 }
 
 .events_container {

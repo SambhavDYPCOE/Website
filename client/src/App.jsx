@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Button from "./components/common/Button/Button";
 import Navbar from "../src/components/Navbar/Navbar";
 import Footer from "../src/components/Footer/Footer";
@@ -7,6 +7,7 @@ import MainEvents from "./components/MainEvents/MainEvents";
 import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
+import Schedule from "./pages/Schedule";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 
@@ -20,6 +21,11 @@ const App = () => {
   //     }),
   //   ],
   // });
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    // console.log(location);
+  }, [location]);
   useEffect(() => {});
   return (
     <>
@@ -38,10 +44,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/events" element={<MainEvents />} />
-        <Route path="/events/:eventId" element={<MainEvents />} />
-        <Route path="/singleevent" element={<SingleEventPage />} />
-        {/*  <Route path="/contact" element={<Contact />} />
-          <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
+        <Route path="/events/:eventId" element={<SingleEventPage />} />
+        <Route path="/schedule" element={<Schedule />} />
+        {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
         {/* <Route path="/" element={<Landing />}></Route>  */}
         {/* <Route path="/" element={<Faq />}></Route>  */}
