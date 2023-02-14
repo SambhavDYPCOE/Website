@@ -1,5 +1,3 @@
-// import test from "./Events/test.png";
-import test from "./sample.jpeg";
 import Khoj from "./Events/Khoj.png";
 import BlindCoding from "./Events/BlindCoding.png";
 import FlyHigh from "./Events/FlyHigh.png";
