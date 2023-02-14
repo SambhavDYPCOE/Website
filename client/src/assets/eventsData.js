@@ -14,13 +14,13 @@ import MaskedCoding from "./Events/MaskedCoding.png";
 import Blogathon from "./Events/Blogathon.png";
 import BotBusters from "./Events/BotBusters.png";
 import CadCompetiton from "./Events/CadCompetiton.png";
-// import GamingZone from "./Events/GamingZone.png";
-// import KeynoteSession from "./Events/KeynoteSession.png";
+import GamingZone from "./Events/GamingZone.png";
+import KeynoteSession from "./Events/KeynoteSession.png";
 import ReadandType from "./Events/ReadandType.png";
 import SpeedTypers from "./Events/SpeedTypers.png";
-// import SupercarShow from "./Events/SupercarShow.png";
+import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
-// import Hackathon from "./Events/Hackathon.png";
+import Hackathon from "./Events/Hackathon.png";
 import quiz from "./Events/quiz.png";
 
 export const eventsData = [
@@ -648,6 +648,90 @@ export const eventsData = [
     ],
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 21,
+    image: Hackathon,
+    name: "HACKATHON",
+    description: "",
+    rules: [
+      "",
+     ],
+    prizes: [
+      "",
+    ],
+    team: "",
+    fees: "",
+    contactInfo: [
+      "",
+    ],
+    location: "",
+    date: "",
+    note: [""],
+    link: "https://docs.google.com/forms/d/1u1mXeqcf-VqEXdsasT8xlhta5CO3zw6y8MZbYkfDTx8/viewform?edit_requested=true",
+  },
+  {
+    id: 22,
+    image: GamingZone,
+    name: "GAMING ZONE",
+    description: "",
+    rules: [
+      "",
+     ],
+    prizes: [
+      "",
+    ],
+    team: "",
+    fees: "",
+    contactInfo: [
+      "",
+    ],
+    location: "",
+    date: "",
+    note: [""],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSf6i9W6BTw4ff8a_rqLpeb2NRnsYdFjx7DKqqzbXlEGoejqaA/viewform",
+  },
+  {
+    id: 23,
+    image: KeynoteSession,
+    name: "KEYNOTE SESSION",
+    description: "",
+    rules: [
+      "",
+     ],
+    prizes: [
+      "",
+    ],
+    team: "",
+    fees: "",
+    contactInfo: [
+      "",
+    ],
+    location: "",
+    date: "",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 24,
+    image: SupercarShow,
+    name: "SUPERCAR SHOW",
+    description: "",
+    rules: [
+      "",
+     ],
+    prizes: [
+      "",
+    ],
+    team: "",
+    fees: "",
+    contactInfo: [
+      "",
+    ],
+    location: "",
+    date: "",
     note: [""],
     link: "",
   },
