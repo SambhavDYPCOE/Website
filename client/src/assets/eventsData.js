@@ -36,7 +36,6 @@ export const eventsData = [
       "Individuals who are enrolled in an Undergraduate Degree program are eligible to participate.",
       "Team participants must provide proof of their college affiliation.",
       "Competition will be held in 2 rounds, round 1(Preliminary/Elimination round) and round 2(Final round). Rounds will be held on 20 and 21 Feb respectively.",
-      "Only two members of a team are allowed to present their ideas in front of judges.",
       "Inter college formation of a team is allowed.",
       "The project concept or idea must be a unique and original creation, free from any potential violation of existing intellectual property rights.",
       "Each student is limited to participation in a single group, as per the established guidelines.",
