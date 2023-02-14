@@ -174,7 +174,7 @@ export const eventsData = [
     location: "Lawn",
     date: "21st Feb 10:00am onwards",
     note: [""],
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScfe2rSolO-FC-q7puLr2ca9UL3o0xDW4UJViqqX5tmDwbrBQ/viewform",
   },
   {
     id: 6,
