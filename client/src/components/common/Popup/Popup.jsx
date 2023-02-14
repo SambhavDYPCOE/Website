@@ -41,6 +41,7 @@ const Popup = () => {
                 className={classes.grababit_link}
                 href="https://grabbits.vercel.app/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <img
                   className={classes.grabbit_image}
