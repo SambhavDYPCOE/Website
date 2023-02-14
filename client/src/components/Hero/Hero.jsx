@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React from "react";
 import classes from "./Hero.module.css";
 import { Link } from "react-router-dom";
 import Button from "../common/Button/Button";
