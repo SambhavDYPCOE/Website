@@ -174,7 +174,7 @@ export const eventsData = [
     location: "Lawn",
     date: "21st Feb 10:00am onwards",
     note: [""],
-    link: "/",
+    link: "",
   },
   {
     id: 6,
@@ -224,7 +224,7 @@ export const eventsData = [
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
     note: [""],
-    link: "/",
+    link: "",
   },
   {
     id: 8,
@@ -310,7 +310,7 @@ export const eventsData = [
     location: "A WING",
     date: "20 FEB",
     note: [""],
-    link: "/",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeXHY3fe3259AmtmItE5u86mwj17aDg3H6KpPwq4yGa54AkUQ/viewform",
   },
   {
     id: 11,
