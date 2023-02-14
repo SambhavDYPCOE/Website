@@ -6,7 +6,9 @@ const ContactUs = () => {
   return (
     <>
       <div className={classes.background}>
-            <div className={classes.registerForm}>
+        {/* <div className={classes.registerForm}> */}
+        <div className={classes.card}>
+          <div className={classes.card2}>
               <h1 className={classes.heading}>Contact Us</h1>
               <div className={classes.userData}>
                 <div className={classes.input_container}>
@@ -31,6 +33,8 @@ const ContactUs = () => {
               <div className={classes.button}><Button label="Send"/></div>
             </div>
         </div>
+        {/* </div> */}
+      </div>
     </>
   )
 }
