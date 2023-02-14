@@ -203,7 +203,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>sambhavdypcoeofficial@gmail.com</p>
+              <p className={classes.mail}>sambhavdypcoeofficial@gmail.com</p>
             </div>
           </div>
         </div>

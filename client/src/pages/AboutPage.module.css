@@ -1,7 +1,7 @@
 .about_page {
   padding-top: 100px;
   background: url(../assets/backGround.svg);
-  padding: 150px 50px;
+  /* padding: 150px 50px; */
   width: 100vw;
 }
 
@@ -9,4 +9,11 @@
   background: url(../assets/backGround.svg);
   padding: 150px 50px;
   width: 100vw;
+}
+.headingx {
+  text-align: center;
+  font-size: 6vw;
+  color: #fff;
+  /* background-clip: text; */
+  /* background-image: linear-gradient(to bottom right, #ff00ee, #ff0932); */
 }

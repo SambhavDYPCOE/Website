@@ -7,6 +7,7 @@ const AboutPage = () => {
   return (
     <>
       <div className={classes.about_page}>
+      <h1 className={classes.headingx}>About</h1>
         <About />
         <EventSection />
       </div>

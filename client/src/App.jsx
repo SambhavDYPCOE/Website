@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Button from "./components/common/Button/Button";
 import Navbar from "../src/components/Navbar/Navbar";
@@ -11,6 +11,7 @@ import Schedule from "./pages/Schedule";
 import AboutPage from "./pages/AboutPage";
 import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
+import Loading from "./components/common/Loading/Loading";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 
@@ -29,10 +30,17 @@ const App = () => {
     window.scrollTo(0, 0);
     // console.log(location);
   }, [location]);
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => setLoading(false), 3900);
   useEffect(() => {});
   return (
     <>
-      {/* <div
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          {/* <div
         // id={swup}
         style={{
           display: "flex",
@@ -43,23 +51,25 @@ const App = () => {
           height: "auto",
         }}
       > */}
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/events" element={<MainEvents />} />
-        <Route path="/events/:eventId" element={<SingleEventPage />} />
-        <Route path="/schedule" element={<Schedule />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/contact" element={<ContactUs />} />
-        {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/events" element={<MainEvents />} />
+            <Route path="/events/:eventId" element={<SingleEventPage />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/contact" element={<ContactUs />} />
+            {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
-        {/* <Route path="/" element={<Landing />}></Route>  */}
-        {/* <Route path="/" element={<Faq />}></Route>  */}
-      </Routes>
-      <Footer />
-      {/* <Button /> */}
-      {/* </div> */}
+            {/* <Route path="/" element={<Landing />}></Route>  */}
+            {/* <Route path="/" element={<Faq />}></Route>  */}
+          </Routes>
+          <Footer />
+          {/* <Button /> */}
+          {/* </div> */}
+        </>
+      )}
     </>
   );
 };
