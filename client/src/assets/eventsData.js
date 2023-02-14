@@ -74,9 +74,9 @@ export const eventsData = [
   {
     id: 3,
     image: test,
-    name: "FLY HIGH",
+    name: "FLY HIGH SHOW",
     description: "An Aerial Show in which an airplane and a drone will be deployed simultaneously in the sky, catching the attention of the people on ground. Below there will be a set from which all these will be launched and controlled. This area will also contain all the information about these projects including Where these are used, How it was made, Components required to make this, Description of components, Budget of the overall project and much more. This will act as a great impression for those who have keen interests in aeronautics and flying objects. Also this event will attract people from far and will add as a great addition to the event",
-    rules: [""],
+    rules: ["NA"],
     prizes: ["NA"],
     team: "Individual",
     fees: "Free",
@@ -85,7 +85,7 @@ export const eventsData = [
       "Samyak Ghangale : 7499849658",
     ],
     location: "Center Lawn",
-    date: "-",
+    date: "20th Feb (Opening Ceremony)",
     note: [""],
     link: "/",
   },
@@ -98,14 +98,14 @@ export const eventsData = [
       "NA"
     ],
     prizes: ["NA"],
-    team: "",
+    team: "Individual",
     fees: "Free",
     contactInfo: [
       "Paras Dhongade  : 7798647910",
       "Shriraksha SN   : 8767997653"
     ],
     location: "Center Lawn",
-    date: "-",
+    date: "20th and 21st Feb (10:00am onwards)",
     note: ["Quiz will be conducted regarding space technology, few lucky winners will get exciting goodies and gifts"],
     link: "/",
   },
@@ -153,6 +153,7 @@ export const eventsData = [
     image: test,
     name: "Murder Mystery",
     description: "kbfblafifbilryfvbi",
+    note: ["Registrations link will be available till only the 20th Feb 11:15am after this no registrations will be accepted"],
     link: "/",
   },
   {
