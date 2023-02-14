@@ -13,7 +13,7 @@ import CodeBuddies from "./Events/CodeBuddies.png";
 import MaskedCoding from "./Events/MaskedCoding.png";
 // import Blogathon from "./Events/Blogathon.png";
 import BotBusters from "./Events/BotBusters.png";
-// import CadCompetiton from "./Events/CadCompetiton.png";
+import CadCompetiton from "./Events/CadCompetiton.png";
 // import GamingZone from "./Events/GamingZone.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
 // import ReadandType from "./Events/ReadandType.png";
@@ -440,32 +440,32 @@ export const eventsData = [
     id: 14,
     image: BotBusters,
     name: "ROBO Buster",
-    description: " A fun quizzes competition between teams where various categories of questions will be asked along with the punishment of drinking different kinds of shots.",
+    description: " ENTC department Presents ROBO BURSTER This game is all about team war between 4 people which will be in 2v2 form. In this event we have to burst all the balloon/lives of the opponent’s bot before the given time limit, the team which bursts all the balloons in minimum time will be the winner of the event. It’s more like TDM (Team Death Match).Step into a world of excitement with Robots! Go wild as you race against time and pop balloons, dodge needles and beat the clock to become the ultimate BURSTER. Get ready and buckle up your seats",
     rules: [
-      "A batch of 4-5 teams will play at a time with each team consisting of 2-3 members.",
-      "Total no of questions per batch - 15",
-      "The first 10 questions will have options with time limit of 30s each and 5 points for each correct answer.",
-      "The last 5 questions will not have options with time limit of 15s and 10 points for each correct answer",
-      "Types of questions- General Science, Entertainment (fun task), dumb charades, etc.",
-      "The team which presses the buzzer first will answer the question.",
-      "If they answer it correctly the other teams will have to take a shot (chosen by chit system).",
-      "If they answer it wrong then that team will take the shot(of the hosts choice).",
-      "3 different shots will be there.",
-      "Rewards- exciting rewards.",
-      "Walk-in Registrations are allowed.",
-      "Disqualification-",
-      "If a team, after pressing the buzzer first, answers 3 questions wrong continuously.",
-      "Prompting & Misbehaving",
+      "OBJECTIVE: To burst maximum number of balloons in minimum  amount of time.",
+      "COMPOSITION OF TEAM:  2 players per team.",
+      "MATERIALS: Everything will be provided by us.",
+      "You can’t touch the bots, all the actions related to bots will be done by remote control only, no participants are allowed to touch the bots.",
+      "If the bots get entangled and if there is no way out, you can try your level best by remote control, neither participants nor referee are allowed to touch the bot.",
+      "Talking about points",
+      "You will get 3 lives that are 3 balloons, when you burst opponent’s balloons, points will be allocated to your team accordingly.",
+      "Winners will be considered when they burst maximum number of balloons in the minimum time, the referee will keep track of points.",
+      "You will be allotted 5 mins for match and your points will be allocated according to 5 min timestamp",
+      "If there is a tie, then the team who busted the very first balloon (like the overall first) will win that match",
+      "There is friendly fire also, if you burst your teammate’s balloon the point will be allocated to your opponents so watch out where you attack!",
+      "Talking about winning prizes",
+      "Top 3 teams with minimum time and maximum points will be given amazing goodies",
      ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+    prizes: ["Goodies depending upon no of registration"],
     team: "2 Members Team",
     fees: "50 Rs. per team (If you do not have teammates we will pair you up, charges for solo registration will be Rs.30.)",
     contactInfo: [
-      "",
+      "Ayush Nagpure : 9325864885",
+      "Ajinkya Jawale : 8767027701",
     ],
-    location: "A WING",
-    date: "20 FEB",
+    location: "Lawn in front of C wing",
+    date: "20th Feb (Full Day)",
     note: [""],
-    link: "/",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
   },
 ];
