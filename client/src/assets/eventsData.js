@@ -21,6 +21,7 @@ import SpeedTypers from "./Events/SpeedTypers.png";
 // import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 // import Hackathon from "./Events/Hackathon.png";
+import quiz from "./Events/quiz.png";
 
 export const eventsData = [
   {
@@ -81,7 +82,7 @@ export const eventsData = [
       "The level of questions are categorised as Easy, Medium and Hard with the points of 100, 250, 500 respectively",
       "The team has to first solve the Easy, Medium and then only Hard question i.e the previous level of question should be solved successfully before trying for other level of question",
     ],
-    prizes: ["1st Prize: ₹7000", "2nd Prize: ₹5000", "3rd Prize: ₹3000"],
+    prizes: ["1st - Keyboard and mouse combo", "2nd - Laptop Bag", "3rd - Earphones"],
     team: "2",
     fees: "Free",
     contactInfo: [
@@ -92,7 +93,7 @@ export const eventsData = [
     location: "A Building Entrance",
     date: "21 Feb",
     note: "",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
     onSpot: "",
   },
   {
@@ -622,6 +623,32 @@ export const eventsData = [
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
     note: ["This fast-paced game is for those who want to put their teamwork and typing skills to the test."],
+    link: "",
+  },
+  {
+    id: 20,
+    image: quiz,
+    name: "Quiz",
+    description: "In this contest at a time 5 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. If he/she gives the right answer 10 points will be rewarded, if the wrong answer then (-5) points.",
+    rules: [
+      "This quiz is based on the buzzer system. The person who hits the buzzer first will be given first priority to answer the question.",
+      "Complete individual event.",
+      "+10 points for each correct answer.",
+      "-2 points for each wrong answer.",
+      "EVALUATION CRITERIA:", 
+      "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
+     ],
+    prizes: [
+      "Yet to be announced",
+    ],
+    team: "5 contestants at a time",
+    fees: "NA",
+    contactInfo: [
+      "Yash Gokakkar : 7499822665",
+    ],
+    location: "about to be fixed",
+    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: [""],
     link: "",
   },
 ];
