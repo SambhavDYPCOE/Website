@@ -12,9 +12,9 @@ const grabbitlinkedin = "https://www.linkedin.com/company/grabbits/";
 const grabbittwitter = "https://twitter.com/grabbits_";
 const grabbitwebsite = "https://grabbits.vercel.app/";
 
-const spiderurl = "";
-const saurabh = "";
-const sanyog = "";
+const spiderurl = "https://www.linkedin.com/in/om-gawande/";
+const saurabh = "https://www.linkedin.com/in/saurabh-barde-5b617321a/";
+const sanyog = "https://www.linkedin.com/in/sanyog-mahajan-8288a7204/";
 
 const grabbiturl = "https://www.grabbitdypcoe.in";
 const Footer = () => {

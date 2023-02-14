@@ -10,3 +10,8 @@
   /* background-clip: text; */
   /* background-image: linear-gradient(to bottom right, #ff00ee, #ff0932); */
 }
+.para {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}

@@ -22,6 +22,8 @@ const SingleEventPage = () => {
     contactInfo,
     location,
     date,
+    link,
+    onSpot,
   } = requiredEvent;
 
   return (
@@ -47,30 +49,35 @@ const SingleEventPage = () => {
                 <p className={classes.content}>{fees}</p>
               </div>
             </div>
-            <div className={classes.subheading}>
-              <h2 className={classes.heading}>Rules and Regulations</h2>
-              <ul>
-                {rules?.map((rule, i) => {
-                  return (
-                    <li key={i} className={classes.content}>
-                      {rule}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-            <div className={classes.subheading}>
-              <h2 className={classes.headingp}>Prizes</h2>
-              <ul>
-                {prizes?.map((prize, i) => {
-                  return (
-                    <li key={i} className={classes.content}>
-                      {prize}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
+            {prizes && (
+              <div className={classes.subheading}>
+                <h2 className={classes.headingp}>Prizes</h2>
+                <ul>
+                  {prizes?.map((prize, i) => {
+                    return (
+                      <li key={i} className={classes.content}>
+                        {prize}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+            {rules && (
+              <div className={classes.subheading}>
+                <h2 className={classes.heading}>Rules and Regulations</h2>
+                <ul>
+                  {rules?.map((rule, i) => {
+                    return (
+                      <li key={i} className={classes.content}>
+                        {rule}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Location</h2>
               <p className={classes.content}>{location}</p>
@@ -85,13 +92,25 @@ const SingleEventPage = () => {
                 );
               })}
             </div>
-            <div className={classes.subheading}>
-              <h2 className={classes.heading}>Note</h2>
-              {note?.map(() => {
-                return <p className={classes.content}>{note}</p>;
-              })}
-            </div>
-            <Button label="Register" />
+            {note && (
+              <div className={classes.subheading}>
+                <h2 className={classes.heading}>Note</h2>
+                {note?.map(() => {
+                  return <p className={classes.content}>{note}</p>;
+                })}
+              </div>
+            )}
+            {link ? (
+              <Button hrefLink="" label="Register" />
+            ) : onSpot ? (
+              <p className={classes.soon}>
+                Registration will be taken on spot!{" "}
+              </p>
+            ) : (
+              onSpot && (
+                <p className={classes.soon}>Registration will be open soon.</p>
+              )
+            )}
           </div>
         </div>
       </div>

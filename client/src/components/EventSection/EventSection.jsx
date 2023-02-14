@@ -33,7 +33,7 @@ const EventSection = () => {
             one of the most unique tech carnivals of the country.
           </p> */}
             <div className={classes.btn}>
-              <Button label="Explore" />
+              <Button link="/events" label="Explore" />
             </div>
           </div>
 

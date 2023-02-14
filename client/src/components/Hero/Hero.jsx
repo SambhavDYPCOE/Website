@@ -60,7 +60,11 @@ const Hero = () => {
             rel="noopener noreferrer"
             to="/events"
           >
-            <Button label="Explore Our Events" className={classes.btn}></Button>
+            <Button
+              link="/events"
+              label="Explore Our Events"
+              className={classes.btn}
+            ></Button>
           </Link>
         </div>
 

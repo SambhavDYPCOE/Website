@@ -1,5 +1,6 @@
 .footer {
   background: linear-gradient(to right, #00093c, #191919);
+  background-color: transparent;
   color: white;
   margin: 0;
   display: flex;

@@ -3,22 +3,24 @@ import classes from "./Faq.module.css";
 
 const questions = [
   {
-    question: "How can i participate in SAMBHAV 23?",
+    question: "What is SAMBHAV 2K23?",
     answer:
-      "All can participate by booking tickets through our portal, and tickets closes on 1 day prior to the event dates (21, 22, 23 MAY 2022) of Sambhav 23",
+      "SAMBHAV 2k23 is the one of biggest Technical event in the history of DYPCOE.",
   },
   {
-    question: "What are the dates of Sambhav 23?",
-    answer: "May 21, 22, 23. Events will happen from 9:00 am to 10:00 pm",
-  },
-  {
-    question: "What is the entry fees for Sambhav 23?",
-    answer: "The entry for Sambhav 23 is 300(day 2), 400(day 3), 600(day 2&3)",
-  },
-  {
-    question: "Is it possible for one participant to attend any workshop?",
+    question: "What are the Dates and Timings of event?",
     answer:
-      "No, participants can only attend registered workshops due to the scheduling of time.",
+      "The event will start at 9AM on 20th Feb and will be till 21st of Feb 10 PM",
+  },
+  {
+    question: "How can I participate in the event?",
+    answer:
+      "Explore various events on the SAMBHAV's website and register for the same",
+  },
+  {
+    question: "Is there any entry fee for SAMBHAV 2k23?",
+    answer:
+      "No, there is not any entry fee to explore SAMBHAV 2k23 but to participate in some events you have pay registration fee.",
   },
 ];
 

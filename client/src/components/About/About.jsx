@@ -30,9 +30,9 @@ const About = () => {
             titanic prize money sum of above half a million rupees to make Karma
             one of the most unique tech carnivals of the country.
           </p> */}
-          <div className={classes.btn}>
+          {/* <div className={classes.btn}>
             <Button label="Explore" />
-          </div>
+          </div> */}
         </div>
 
         <div className={classes.composition}>
