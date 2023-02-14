@@ -29,7 +29,7 @@ export const eventsData = [
     image: Khoj,
     name: "Khoj",
     description:
-      "The KHOJ project pitching event is designed to give students an opportunity to showcase their innovative project ideas to a panel of judges. The main objective of this competition is to highlight the students' technical proficiency, creativity, and problem-solving capabilities and provide them with a platform to receive feedback and recognition for their hard work.",
+      "The KHOJ project idea pitching event is designed to give students an opportunity to showcase their innovative project ideas to a panel of judges. The main objective of this competition is to highlight the students' technical proficiency, creativity, and problem-solving capabilities and provide them with a platform to receive feedback and recognition for their hard work.",
     rules: [
       "An ideal team size would consist of a minimum of 2 and a maximum of 4 individuals.",
       "Individuals from diverse departments are eligible for participation within the team.",
