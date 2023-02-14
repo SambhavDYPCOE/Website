@@ -468,4 +468,29 @@ export const eventsData = [
     note: [""],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
   },
+  {
+    id: 15,
+    image: CadCompetiton,
+    name: "CAD Competition",
+    description: " CAD Competition is an event where students interested in designing and modeling can show their skills/talent and win exciting prizes. CAD Competition is not limited by specific software use, any designing software, be it Solidworks, Catia, AutoCAD, etc. can be used by participants. Participants can bring their own laptop/system consisting of any design software or else system will be provided to them by organizers",
+    rules: [
+      "Make design from scratch",
+      "No use of the Internet while designing.",
+      "2 hours duration for designing.",
+     ],
+    prizes: [
+      "1st: Mivi Duopods",
+      "2nd: Laptop Bag",
+    ],
+    team: "2 Members Team",
+    fees: "100 Rs",
+    contactInfo: [
+      "Shambhuraje Ghorpade : 9765442079",
+      "Ajinkya Suryavanshi : 7387958706",
+    ],
+    location: "CAD/CAM Lab",
+    date: "21/02/2023 (10:00 A.M to 1:00 P.M)",
+    note: [""],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
+  },
 ];
