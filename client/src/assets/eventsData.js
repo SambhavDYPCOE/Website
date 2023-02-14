@@ -16,7 +16,7 @@ import BotBusters from "./Events/BotBusters.png";
 import CadCompetiton from "./Events/CadCompetiton.png";
 // import GamingZone from "./Events/GamingZone.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
-// import ReadandType from "./Events/ReadandType.png";
+import ReadandType from "./Events/ReadandType.png";
 import SpeedTypers from "./Events/SpeedTypers.png";
 // import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
@@ -592,5 +592,36 @@ export const eventsData = [
     date: "13th AND 21 FEBRUARY (submission link will close at 5:00 PM)",
     note: [""],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfT4q9dRseQqkbgxfOIZ9CUXGgmtHMZHCLR9IucOMeLuiv_Pg/viewform",
+  },
+  {
+    id: 19,
+    image: ReadandType,
+    name: "READ AND TYPE",
+    description: "Read and Type is a two-player game that requires quick reflexes and strong teamwork. The game is simple in concept but challenging in execution. One player reads a text passage while the other player types it out as accurately as possible. The catch is that they only have six minutes to complete the task. The faster and more accurately the players work, the more points they can score. The reader must be able to read quickly and clearly while the typist must be able to type with speed and accuracy. Communication is key, as the reader must be able to alert the typist to any errors or mistakes in the text.",
+    rules: [
+      "This event will be a pair event.",
+      "You could come with your friend or get a partner on the spot with the available contestants.",
+      "Each pair will be given books where one person will read the given text for 3 minutes and the other will type it as fast he/she can.",
+      "Then for the next 3 minutes they will switch sides and do the same.",
+      "Each team has to attempt to type down Maximum number of words in the given time with high accuracy.",
+      "EVALUATION CRITERIA:", 
+      "   The text typed by both members will be evaluated using an AI tool.",
+      "   The team with the highest accuracy and number of words will win.",
+     ],
+    prizes: [
+      "The winners from Day 1 and Day 2 both will be evaluated and a Leaderboard will be made the Top 10 teams will be Winners and will win free Membership From Books and Beyond ",
+    ],
+    team: "Team of 2",
+    fees: "NA",
+    contactInfo: [
+      "Sayam Palrecha : 9370091963)",
+      "Yash Gokakkar : 7499822665)",
+      "Omkar Shedge : 83088 82756)",
+      "Rohita : 99457 98364)	",
+    ],
+    location: "about to be fixed",
+    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: ["This fast-paced game is for those who want to put their teamwork and typing skills to the test."],
+    link: "",
   },
 ];
