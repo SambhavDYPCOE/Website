@@ -16,7 +16,7 @@ const Button = ({
   return (
     <>
       {hrefLink ? (
-        <a href={hrefLink} target="_blank">
+        <a href={hrefLink} target="_blank" rel="noreferrer noopener">
           <div className={classes.buttonHolder}>
             <button
               style={{ padding: padding, fontSize: fontSize }}

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Button from "./components/common/Button/Button";
+// import Button from "./components/common/Button/Button";
 import Navbar from "../src/components/Navbar/Navbar";
 import Footer from "../src/components/Footer/Footer";
 import MainEvents from "./components/MainEvents/MainEvents";
-import Faq from "../src/components/Faq/Faq";
+// import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
 import Schedule from "./pages/Schedule";

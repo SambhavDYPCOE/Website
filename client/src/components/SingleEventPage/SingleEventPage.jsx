@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import classes from "./SingleEventPage.module.css";
-import sample from "../../assets/Events/sample.jpeg";
+// import sample from "../../assets/Events/sample.jpeg";
 import Button from "../common/Button/Button";
 import { useParams } from "react-router-dom";
 import { eventsData } from "../../assets/eventsData";
@@ -81,6 +81,10 @@ const SingleEventPage = () => {
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Location</h2>
               <p className={classes.content}>{location}</p>
+            </div>
+            <div className={classes.subheading}>
+              <h2 className={classes.heading}>Date and Timing</h2>
+              <p className={classes.content}>{date}</p>
             </div>
             <div className={classes.subheading}>
               <h2 className={classes.heading}>Contact Info</h2>

@@ -99,9 +99,21 @@
   margin-left: 12px;
   margin-bottom: 4px;
 }
+.grababit_link {
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
 .grabbit_image {
   width: 80px;
   z-index: 2;
+  transition: all 0.3s ease-in;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.grabbit_image:hover {
+  transform: translateY(-10px);
 }
 @media screen and (max-width: 768px) {
   .card {

@@ -40,6 +40,7 @@ const Contact = () => {
               // height="450"
               // style="border:0;"
               // allowfullscreen=""
+              title="dypcoemap"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>

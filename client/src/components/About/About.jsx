@@ -1,4 +1,4 @@
-import Button from "../common/Button/Button";
+// import Button from "../common/Button/Button";
 import classes from "./About.module.css";
 import about from "./about.svg";
 

@@ -36,11 +36,18 @@ const Popup = () => {
                 src={cross}
                 alt="close"
               />
-              <img
-                className={classes.grabbit_image}
-                src={grabbits}
-                alt="grabbits"
-              />
+
+              <a
+                className={classes.grababit_link}
+                href="https://grabbits.vercel.app/"
+                target="_blank"
+              >
+                <img
+                  className={classes.grabbit_image}
+                  src={grabbits}
+                  alt="grabbits"
+                />
+              </a>
               <h2 className={classes.text}>Join Our Whatsapp Group</h2>
               <h1 className={classes.subtext}>
                 Stay updated with all the opportunites.
