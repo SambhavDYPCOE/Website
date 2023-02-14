@@ -8,7 +8,6 @@ const Homepage = () => {
     <>
       <Hero />
       <About />
-      <ContactUs />
     </>
   );
 };

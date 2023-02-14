@@ -1,20 +1,40 @@
 import React from 'react'
 import classes from './Register.module.css'
+import Button from "../Button/Button"
 
 const Register = () => {
   return (
     <>
         <div className={classes.background}>
             <div className={classes.registerForm}>
-                <h1 className={classes.heading}> Register</h1>
-                <form method="post" className={classes.formData}>
-                    <label className={classes.userName}>Name</label>
-                    <input type="text" className={classes.userInput} />
-                    <label className={classes.userMail}>Email</label>
-                    <input type="email" className={classes.userInput} />
-                    <label className={classes.userContact}>Phone Number</label>
-                    <input type="number" className={classes.userInput} />
-                </form>
+              <h1 className={classes.heading}>Register</h1>
+              <div>
+                  <label className={classes.container}>
+                    <input checked="checked" type="checkbox" />
+                    <div className={classes.checkmark}></div>
+                  </label>
+                </div>
+              <div className={classes.userData}>
+                <div className={classes.input_container}>
+                  <label className={classes.input_label}>
+                    Name<span className={classes.mandatory}>*</span>
+                  </label>
+                  <input className={classes.input}/>
+                </div>
+                <div className={classes.input_container}>
+                  <label className={classes.input_label}>
+                    Email<span className={classes.mandatory}>*</span>
+                  </label>
+                  <input className={classes.input}/>
+                </div>
+                <div className={classes.input_container}>
+                  <label className={classes.input_label}>
+                    Phone Number<span className={classes.mandatory}>*</span>
+                  </label>
+                  <input className={classes.input}/>
+                </div>
+              </div>
+              <div className={classes.button}><Button label="Send"/></div>
             </div>
         </div>
     </>
