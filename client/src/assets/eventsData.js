@@ -8,6 +8,17 @@ import MurderMystery from "./Events/MurderMystery.png";
 import ShotOnQuiz from "./Events/ShotOnQuiz.png";
 import RoboSoccer from "./Events/RoboSoccer.png";
 import DraicPlayground from "./Events/DraicPlayground.png";
+// import Blogathon from "./Events/Blogathon.png";
+// import BotBusters from "./Events/BotBusters.png";
+// import CadCompetiton from "./Events/CadCompetiton.png";
+// import GamingZone from "./Events/GamingZone.png";
+// import KeynoteSession from "./Events/KeynoteSession.png";
+// import ReadandType from "./Events/ReadandType.png";
+// import SpeedTypers from "./Events/SpeedTypers.png";
+// import SupercarShow from "./Events/SupercarShow.png";
+// import TremblingTower from "./Events/TremblingTower.png";
+// import Hackathon from "./Events/Hackathon.png";
+
 export const eventsData = [
   {
     id: 1,
