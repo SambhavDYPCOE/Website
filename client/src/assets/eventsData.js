@@ -696,7 +696,8 @@ export const eventsData = [
     team: "valorant: 3-5 players , Fall guys: 9-10 players",
     fees: "Valorant: ₹100/Team, Fall guys: ₹30/Team",
     contactInfo: [
-      "",
+      "Nikhil : 91236 81089",
+      "Abhishek : 96070 52928",
     ],
     location: "A wing (FPL lab)",
     date: "20 and 21st Feb 2023 (11 am to 5 pm)",
