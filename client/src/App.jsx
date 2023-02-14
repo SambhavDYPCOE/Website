@@ -12,6 +12,7 @@ import AboutPage from "./pages/AboutPage";
 import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
+import Popup from "./components/common/Popup/Popup";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
 
@@ -51,6 +52,7 @@ const App = () => {
           height: "auto",
         }}
       > */}
+          <Popup />
           <Navbar />
           <Routes>
             <Route path="/" element={<Homepage />} />
