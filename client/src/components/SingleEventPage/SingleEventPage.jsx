@@ -104,16 +104,14 @@ const SingleEventPage = () => {
                 })}
               </div>
             )}
-            {link ? (
-              <Button hrefLink="" label="Register" />
-            ) : onSpot ? (
+            {link !== "" ? (
+              <Button hrefLink={link} label="Register" />
+            ) : onSpot !== "" ? (
               <p className={classes.soon}>
                 Registration will be taken on spot!{" "}
               </p>
             ) : (
-              onSpot && (
-                <p className={classes.soon}>Registration will be open soon.</p>
-              )
+              <p className={classes.soon}>Registration will be open soon.</p>
             )}
           </div>
         </div>
