@@ -1,4 +1,4 @@
-.background{
+.background {
   width: 100vw;
   height: auto;
   background: url(./backGround.svg);
@@ -8,9 +8,10 @@
   justify-content: center;
   align-items: center;
   padding: 16px;
+  background-color: rgba(0, 0, 0, 0.432);
 }
 
-.registerForm{
+.registerForm {
   width: 45vw;
   height: auto;
   margin-top: 15vh;
@@ -22,18 +23,18 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding:36px 16px 16px 16px;
+  padding: 36px 16px 16px 16px;
   color: white;
   overflow: hidden;
   margin-bottom: 36px;
 }
 
-.heading{
-  font-size:3vw;
+.heading {
+  font-size: 3vw;
   font-weight: 600;
 }
 
-.userData{
+.userData {
   width: 100%;
   padding: 8px;
   margin: 8px;
@@ -65,7 +66,8 @@
   padding-left: 12px;
 }
 
-.input, .message {
+.input,
+.message {
   /* all: unset; */
   background-color: #00000000;
   border: 1.5px solid #d9d9d9;
@@ -78,47 +80,46 @@
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
-.message{
+.message {
   height: 15vh;
 }
 
-.button{
+.button {
   margin-top: 10px;
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
-@media screen and (max-width:768px){
-  .registerForm{
+@media screen and (max-width: 768px) {
+  .registerForm {
     width: 90vw;
     align-self: center;
-    padding:36px 8px 8px 8px;
-    margin-right:16px;
+    padding: 36px 8px 8px 8px;
+    margin-right: 16px;
   }
-  .heading{
-    font-size:4vh;
+  .heading {
+    font-size: 4vh;
     font-weight: 600;
   }
 
-  .userData{
+  .userData {
     padding: 4px;
     margin: 4px;
   }
 
-  .input_container{
-    width:100%
+  .input_container {
+    width: 100%;
   }
 
-  .input_label{ 
-     font-size: 2.5vh;
+  .input_label {
+    font-size: 2.5vh;
   }
 
-  .input, .message{
+  .input,
+  .message {
     font-size: 2vh;
   }
 
-  .background{
+  .background {
     padding: 0px;
   }
-  
 }
-
