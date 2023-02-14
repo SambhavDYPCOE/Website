@@ -19,7 +19,7 @@ import CadCompetiton from "./Events/CadCompetiton.png";
 // import ReadandType from "./Events/ReadandType.png";
 // import SpeedTypers from "./Events/SpeedTypers.png";
 // import SupercarShow from "./Events/SupercarShow.png";
-// import TremblingTower from "./Events/TremblingTower.png";
+import TremblingTower from "./Events/TremblingTower.png";
 // import Hackathon from "./Events/Hackathon.png";
 
 export const eventsData = [
@@ -491,6 +491,46 @@ export const eventsData = [
     location: "CAD/CAM Lab",
     date: "21/02/2023 (10:00 A.M to 1:00 P.M)",
     note: [""],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdoBbbc_iWaqnNIhqyKIGMeQP5JWhjXmtUTaDtxBsUmts_PZg/viewform",
+  },
+  {
+    id: 16,
+    image: TremblingTower,
+    name: "TREMBLING TOWER",
+    description: "Civil Engineering Student Association Presents TREMBLING TOWER A tower making competition In this event a tower is to be built with the help of Popsicle sticks. The Material required and Dimensions for making tower will be provided. It is a game of skill + mind. So let’s make a unique structure. Do join us and win exciting prizes.",
+    rules: [
+      "OBJECTIVE: To design and build a tower, which will bear the maximum load by using only popsicle sticks and glue.",
+      "MATERIALS:",
+      "   Materials used for construction of towers are restricted to following:",
+      "     Popsicle sticks",
+      "     Glue",
+      "   Maximum number of sticks: 100 sticks",
+      "CONSTRUCTION SPECIFICATIONS:",
+      "   Height of tower: 30cm",
+      "   Cross sectional dimensions: 10cm10cm",
+      "   Dimensional error of  1 cm will be considered. [Towers with error more than 1cm will be disqualified]",
+      "   Participants should make top platform by using popsicle sticks as load will be given from top platform.",
+      "JUDGING CRITERIA:",
+      "   Dimensions of the tower",
+      "   Strength to self-weight ratio i.e. [Load carried by tower/self-weight]",
+      "INSTRUCTIONS:",
+      "   Use of materials other than which are provided by us is strictly prohibited.",
+      "   Participants should make top platform by using popsicle sticks as load will be given from top platform.",
+      "   If the dimensional error exceeds 1cm model will be disqualified.",
+     ],
+    prizes: [
+      "Winner:3000",
+      "Runner up:2000",
+    ],
+    team: "2 to 4 members per team.",
+    fees: "Rs.200/ Team",
+    contactInfo: [
+      "Shrikrushna Gawade : 9420103663",
+      "Anurag Shendekar : 7588923120",
+    ],
+    location: "Lawn in front of C wing",
+    date: "Tower making: 20 Feb 2023, 10 AM onwards, Tower testing: 21 Feb 2023, 10 AM onwards",
+    note: ["No other material may be used for construction of tower. Tower may not be painted."],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSf37Z0h9Rya9TXifYPuuQU4QPs-LglQHpKIc3Ve4uJ8ytbpdg/viewform",
   },
 ];
