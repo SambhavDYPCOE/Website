@@ -8,12 +8,6 @@ const Register = () => {
         <div className={classes.background}>
             <div className={classes.registerForm}>
               <h1 className={classes.heading}>Register</h1>
-              <div>
-                  <label className={classes.container}>
-                    <input checked="checked" type="checkbox" />
-                    <div className={classes.checkmark}></div>
-                  </label>
-                </div>
               <div className={classes.userData}>
                 <div className={classes.input_container}>
                   <label className={classes.input_label}>
