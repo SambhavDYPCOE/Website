@@ -11,13 +11,13 @@ import DraicPlayground from "./Events/DraicPlayground.png";
 import HopSites from "./Events/HopSites.png"; 
 import CodeBuddies from "./Events/CodeBuddies.png"; 
 import MaskedCoding from "./Events/MaskedCoding.png";
-// import Blogathon from "./Events/Blogathon.png";
+import Blogathon from "./Events/Blogathon.png";
 import BotBusters from "./Events/BotBusters.png";
 import CadCompetiton from "./Events/CadCompetiton.png";
 // import GamingZone from "./Events/GamingZone.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
 // import ReadandType from "./Events/ReadandType.png";
-// import SpeedTypers from "./Events/SpeedTypers.png";
+import SpeedTypers from "./Events/SpeedTypers.png";
 // import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 // import Hackathon from "./Events/Hackathon.png";
@@ -532,5 +532,65 @@ export const eventsData = [
     date: "Tower making: 20 Feb 2023, 10 AM onwards, Tower testing: 21 Feb 2023, 10 AM onwards",
     note: ["No other material may be used for construction of tower. Tower may not be painted."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf37Z0h9Rya9TXifYPuuQU4QPs-LglQHpKIc3Ve4uJ8ytbpdg/viewform",
+  },
+  {
+    id: 17,
+    image: SpeedTypers,
+    name: "SPEED TYPERS",
+    description: "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
+    rules: [
+      "Players can have one trial round to understand the game.",
+      "Each player can play the game only 3 times. ",
+      "The best score out of three games will be considered as the final score.",
+      "The player will be judged by the final score and accuracy after the game.",
+      "EVALUATION CRITERIA:", 
+      "   The final score and accuracy of the player will be recorded and displayed on the leaderboard.",
+      "   At the end of the event the players on the top of the leaderboards will be the winners.",
+     ],
+    prizes: [
+      "7000 first prizes",
+      "5000 second prizes",
+      "3000 third prizes",
+      "500 (top 10 )",
+    ],
+    team: "Individual",
+    fees: "NA",
+    contactInfo: [
+      "Prasad Upasani : 7774040131",
+    ],
+    location: "about to be fixed",
+    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 18,
+    image: Blogathon,
+    name: "BLOGATHON",
+    description: "Iasc Blogathon Hola amigos!🤩 Our team IASC DYPCOE in collaboration with SAMBHAV and ABHIVYAKTI ✨ is back with another exciting event! This is our first ever Blog-a-thon💬 with exciting prizes 🏆 for the winners! You have to write ✍️ a blog on the Topic:- Your Journey falling in love with a tech👩‍💻domain The Deadline for submission is 21st December 5:00 pm. Along with prizes🏆 the top 3 submissions would also get a chance to be featured in our college magazine via team Abhivyakti 💫 So what are you waiting for?!🤩 Get your creative minds running 🌟 We are eager to read about your Journey!❤️",
+    rules: [
+      "Plagiarized or AI generated content is strictly not allowed. If found, we will disqualify it immediately.",
+      "The word limit of the blog should be between 800-1200 words.",
+      "Along with content quality your blog would also be judged on how well it is promoted i.e number of likes or votes it receives.",
+      "The Blog can be published on any blogging website of your choice eg-linkedin,twitter,medium,hashnode etc. Try to use a popular website so it will be easier to promote.",
+      "The Blog is expected to be descriptive i.e focusing on why you got into a specific tech domain,how you got interested and the challenges you faced while exploring it. We don’t expect you to go into the technicalities of the domain",
+      "You are expected to use the following hashtags compulsorily while posting the blog:- #iasc #iascdypcoe #sambhav #blog-athon and can add additional hashtags of your choice.",
+      "EVALUATION CRITERIA:", 
+      "   The Blog would be given a score out of 50,where 35 marks are for the quality of content and the rest 15 marks are for how well it is promoted.",
+      "   Total score=Content(35) + No.of votes(converted out of 15)=50",
+     ],
+    prizes: [
+      "winners will get there blog published in college magazine",
+    ],
+    team: "Individual",
+    fees: "NA",
+    contactInfo: [
+      "Varsha Kotipalli : 9561387199",
+      "Aashavi Kothari : 7738734644",
+    ],
+    location: "Online",
+    date: "13th AND 21 FEBRUARY (submission link will close at 5:00 PM)",
+    note: [""],
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfT4q9dRseQqkbgxfOIZ9CUXGgmtHMZHCLR9IucOMeLuiv_Pg/viewform",
   },
 ];
