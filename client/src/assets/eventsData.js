@@ -8,6 +8,9 @@ import MurderMystery from "./Events/MurderMystery.png";
 import ShotOnQuiz from "./Events/ShotOnQuiz.png";
 import RoboSoccer from "./Events/RoboSoccer.png";
 import DraicPlayground from "./Events/DraicPlayground.png";
+import HopSites from "./Events/HopSites.png"; 
+import CodeBuddies from "./Events/CodeBuddies.png"; 
+import MaskedCoding from "./Events/MaskedCoding.png";
 // import Blogathon from "./Events/Blogathon.png";
 // import BotBusters from "./Events/BotBusters.png";
 // import CadCompetiton from "./Events/CadCompetiton.png";
@@ -197,7 +200,7 @@ export const eventsData = [
   },
   {
     id: 7,
-    image: "",
+    image: HopSites,
     name: "Hop Sites",
     description: [
       "An activity in which players have to find out the clues by visiting different website by decoding the clue given at the beginning – just like treasure hunt participants will visit different websites & the one who decodes all the clues & complete the tasks will be considered as winner.",
@@ -225,7 +228,7 @@ export const eventsData = [
   },
   {
     id: 8,
-    image: "",
+    image: CodeBuddies,
     name: "CodeBuddies",
     description: [
       "The Partner Coding Competition is an exciting and unique challenge that combines the power of teamwork with the thrill of technology. Here, two coders will join forces to solve a coding problem in an innovative and interactive way. One partner will write a line of code and then pass the baton to the other partner, who will continue the solution by writing the next line. This pattern will repeat until the problem is solved, creating a seamless collaboration between the two partners.",
@@ -255,7 +258,7 @@ export const eventsData = [
   },
   {
     id: 9,
-    image: "",
+    image: MaskedCoding,
     name: "Masked coding",
     description:
       "An event where a programmer is asked to code without looking at the screen. The programmer is given a problem to solve and has to write the code from memory, typing it out on a keyboard. The goal of this event is to test the programmer's ability to recall syntax and programming concepts, as well as their ability to think logically and problem-solve under pressure.",
@@ -458,8 +461,7 @@ export const eventsData = [
     team: "2 Members Team",
     fees: "50 Rs. per team (If you do not have teammates we will pair you up, charges for solo registration will be Rs.30.)",
     contactInfo: [
-      "Nayan : 9834020168",
-      "Hrutik : 9881087152",
+      "",
     ],
     location: "A WING",
     date: "20 FEB",
