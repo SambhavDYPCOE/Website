@@ -12,7 +12,7 @@ import HopSites from "./Events/HopSites.png";
 import CodeBuddies from "./Events/CodeBuddies.png"; 
 import MaskedCoding from "./Events/MaskedCoding.png";
 // import Blogathon from "./Events/Blogathon.png";
-// import BotBusters from "./Events/BotBusters.png";
+import BotBusters from "./Events/BotBusters.png";
 // import CadCompetiton from "./Events/CadCompetiton.png";
 // import GamingZone from "./Events/GamingZone.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
@@ -438,7 +438,7 @@ export const eventsData = [
    },
    {
     id: 14,
-    image: test,
+    image: BotBusters,
     name: "ROBO Buster",
     description: " A fun quizzes competition between teams where various categories of questions will be asked along with the punishment of drinking different kinds of shots.",
     rules: [
