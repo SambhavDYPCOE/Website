@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
           <p className={classes.footer_sambhav_description}>
-            Sambhav'23 is the largest technical festival of Pune. Let&apos;s
+            Sambhav'23 is One of the Largest Technical festival of Pune. Let&apos;s
             make a Tech move.
           </p>
           <div className={classes.footer_social_item}>

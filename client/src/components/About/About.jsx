@@ -19,7 +19,7 @@ const About = () => {
               technology, Sambhav helps broaden their knowledge and skillset,
               making it a fun, engaging, and enriching experience for all
               attendees. Get ready to be a part of the biggest technical
-              extravaganza of the year – Sambhav!
+              extravaganza of the year 2k23 – Sambhav!
             </p>
 
             {/* <p className={classes.para}>
