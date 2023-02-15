@@ -653,18 +653,25 @@ export const eventsData = [
   {
     id: 21,
     image: Hackathon,
-    name: "HACKATHON",
+    name: "7BITS",
     description:[ 
       "The upcoming contest is a great opportunity for computer science enthusiasts to test their skills in Data Structure and Algorithm (DSA) problems. The contest will feature a total of 7 DSA problems, with 2 problems being easy, 4 medium-level problems, and 1 challenging problem. Participants will be able to solve the problems in a time frame of 2 hours and the team size should consist of a minimum of 2 students and a maximum of 4 students.",
       "To ensure a smooth and seamless experience, each team will be provided with 2 PCs. Teams are also welcome to bring their own laptops if they prefer. The top 3 teams will be rewarded with a 3-month subscription to TLE ELIMINATORS, a valuable resource for anyone looking to enhance their DSA skills. In addition, the top 10 teams will receive stickers as a token of appreciation for their participation.",
       "This contest is a fantastic opportunity for individuals or teams to showcase their DSA knowledge and skills. So gear up, bring your best problem-solving skills, and get ready to participate in this exciting contest!",
     ],
     rules: [
-      "only 2-4 contestants allowed in a team",
+      "Eligibility: The contest is open for every registered participant.",
+      "Contest Format: The contest will consist of a set of 7 DSA problems, with 2 problems being easy, 4 medium-level problems, and 1 challenging problem, all to be solved in the time frame of 2 hours.",
+      "Programming Languages: Participants may use any programming language that is supported by the Hackerrank.", 
+      "Plagiarism: Any instance of plagiarism will result in immediate disqualification.",
+      "Code of Conduct: All participants are expected to follow a code of conduct that includes respecting fellow participants and avoiding any behavior that might be considered offensive or disrespectful.",
+      "Prohibited Materials: Participants are not allowed to bring any electronic devices, including mobile phones, into the contest area.",
+      "Tiebreakers: In the event of a tie, the tiebreaker will be based on the time of submission for the last correct answer.",
+      "Organizing Committee: The organizing committee reserves the right to disqualify any participant who violates the rules and regulations of the contest.",
+      "Rule Changes: The organizing committee reserves the right to make changes to the rules and regulations of the contest at any time, and participants will be notified of any changes in advance.",
      ],
     prizes: [
-      "Top 3 will get TLE Eliminators membership",
-      "Top 10 get stickers",
+      "EXICITING PRIZES AND REWARDS",
     ],
     team: "2-4 Students in a team",
     fees: " Free",
@@ -751,4 +758,5 @@ export const eventsData = [
     note: [""],
     link: "",
   },
+  
 ];
