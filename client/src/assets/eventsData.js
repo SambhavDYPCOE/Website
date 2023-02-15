@@ -223,7 +223,7 @@ export const eventsData = [
     contactInfo: ["Riyal Jain: 7470423278", "Vardhaman Begani: 7020676300"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: [""],
+    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
     link: "",
   },
   {
@@ -249,11 +249,11 @@ export const eventsData = [
       "Each team that successfully completes all the questions in their first attempt will be rewarded with special GOODIES",
     ],
     team: "2 members",
-    fees: "25Rs. per team",
+    fees: "20Rs. per team",
     contactInfo: ["Atharv Badwaik: 7888126711", "Nikita Thakur: 7021815065"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: [""],
+    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
     link: "/",
   },
   {
@@ -278,7 +278,7 @@ export const eventsData = [
     contactInfo: ["Deepal Mundhada: 9028935100", "Sukrut Rahane: 8446698770"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: [""],
+    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
     link: "/",
   },
   {
