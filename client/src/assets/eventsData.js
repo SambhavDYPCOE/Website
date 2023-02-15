@@ -758,5 +758,30 @@ export const eventsData = [
     note: [""],
     link: "",
   },
+  {
+    id: 25,
+    image: SupercarShow,
+    name: "SPINNING RIVAL",
+    description: "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
+    rules: [
+      "At a time two participants should be present while spinning the wheel.",
+      "When spinning wheel stops, it will indicate to a special coding problem.", 
+      "An indication will be provided to start solving the coding problem for the two rivals.",
+      "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
+     ],
+    prizes: [
+      "EXICITING PRIZES AND REWARDS",
+    ],
+    team: "Individual",
+    fees:"Free",
+    contactInfo: [
+      "Vedika Sangle : 9578907935",
+      "Utkarsha Kesarkar : 7887440601",
+    ],
+    location: "A WING",
+    date: "20th FEB",
+    note: [""],
+    link: "",
+  },
   
 ];
