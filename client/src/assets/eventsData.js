@@ -783,5 +783,30 @@ export const eventsData = [
     note: [""],
     link: "",
   },
-  
+  {
+    id: 26,
+    image: SupercarShow,
+    name: "TREASURE HUNT",
+    description: "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
+    rules: [
+      "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
+      "Do not open and view the clues prior to the announcement that the hunt has started.", 
+      "Teams must stay together during the Treasure Hunt and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
+      "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
+      "Teams may or may not use smartphones or mobile internet devices.",
+      "The Treasure Hunt begins at 1:00 p.m.",
+     ],
+    prizes: [
+      "EXICITING PRIZES AND REWARDS",
+    ],
+    team: "Individual",
+    fees:"Free",
+    contactInfo: [
+      "Vaishnavi Varkur : 8828090518",
+    ],
+    location: "A WING",
+    date: "21th FEB (Full Day)",
+    note: [""],
+    link: "",
+  },
 ];
