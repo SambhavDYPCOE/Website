@@ -15,6 +15,10 @@ import Loading from "./components/common/Loading/Loading";
 import Popup from "./components/common/Popup/Popup";
 // import SwupOverlayTheme from "@swup/overlay-theme";
 // import Swup from "swup";
+/* Google Analytics */
+import ReactGA from "react-ga";
+const TRACKING_ID = "UA-257375779-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   // const swup = new Swup({
