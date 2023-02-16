@@ -24,6 +24,7 @@ const SingleEventPage = () => {
     date,
     link,
     onSpot,
+    disqualification,
   } = requiredEvent;
 
   return (
@@ -68,6 +69,20 @@ const SingleEventPage = () => {
                 <h2 className={classes.heading}>Rules and Regulations</h2>
                 <ul>
                   {rules?.map((rule, i) => {
+                    return (
+                      <li key={i} className={classes.content}>
+                        {rule}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+            {disqualification && (
+              <div className={classes.subheading}>
+                <h2 className={classes.heading}>Disqualification</h2>
+                <ul>
+                  {disqualification?.map((rule, i) => {
                     return (
                       <li key={i} className={classes.content}>
                         {rule}

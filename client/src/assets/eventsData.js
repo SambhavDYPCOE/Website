@@ -8,8 +8,8 @@ import MurderMystery from "./Events/MurderMystery.png";
 import ShotOnQuiz from "./Events/ShotOnQuiz.png";
 import RoboSoccer from "./Events/RoboSoccer.png";
 import DraicPlayground from "./Events/DraicPlayground.png";
-import HopSites from "./Events/HopSites.png"; 
-import CodeBuddies from "./Events/CodeBuddies.png"; 
+import HopSites from "./Events/HopSites.png";
+import CodeBuddies from "./Events/CodeBuddies.png";
 import MaskedCoding from "./Events/MaskedCoding.png";
 import Blogathon from "./Events/Blogathon.png";
 import BotBusters from "./Events/BotBusters.png";
@@ -81,7 +81,11 @@ export const eventsData = [
       "The level of questions are categorised as Easy, Medium and Hard with the points of 100, 250, 500 respectively",
       "The team has to first solve the Easy, Medium and then only Hard question i.e the previous level of question should be solved successfully before trying for other level of question",
     ],
-    prizes: ["1st - Keyboard and mouse combo", "2nd - Laptop Bag", "3rd - Earphones"],
+    prizes: [
+      "1st - Keyboard and mouse combo",
+      "2nd - Laptop Bag",
+      "3rd - Earphones",
+    ],
     team: "2",
     fees: "Free",
     contactInfo: [
@@ -186,13 +190,13 @@ export const eventsData = [
       "One of the students, John, suddenly disappears and is found dead in his lab, seemingly from a self-inflicted gunshot wound.",
       "Can the detective inside you debunk this mystery and recognize John’s killer?",
     ],
-    rules: ["NA"],
+    rules: "",
     prizes: ["Exciting Prizes"],
     team: "Team of MAX 4 members.",
     fees: "Free",
     contactInfo: ["Akash Bharati : 9623986208"],
     location: "A wing Basement",
-    date: "20st Feb 10:00am onwards",
+    date: "20st Feb 10:00am onwards, closes at 11:15am on 20th Feb",
     note: [
       "Registrations link will be available till only the 20th Feb 11:15am after this no registrations will be accepted",
     ],
@@ -223,7 +227,9 @@ export const eventsData = [
     contactInfo: ["Riyal Jain: 7470423278", "Vardhaman Begani: 7020676300"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
+    note: [
+      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+    ],
     link: "",
   },
   {
@@ -253,7 +259,9 @@ export const eventsData = [
     contactInfo: ["Atharv Badwaik: 7888126711", "Nikita Thakur: 7021815065"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
+    note: [
+      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+    ],
     link: "/",
   },
   {
@@ -278,7 +286,9 @@ export const eventsData = [
     contactInfo: ["Deepal Mundhada: 9028935100", "Sukrut Rahane: 8446698770"],
     location: "C wing Basement",
     date: "20 & 21 Feb full day",
-    note: ["Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision"],
+    note: [
+      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+    ],
     link: "/",
   },
   {
@@ -299,16 +309,17 @@ export const eventsData = [
       "3 different shots will be there.",
       "Rewards- exciting rewards.",
       "Walk-in Registrations are allowed.",
-      "Disqualification-",
+    ],
+    disqualification: [
       "If a team, after pressing the buzzer first, answers 3 questions wrong continuously.",
       "Prompting & Misbehaving",
     ],
     prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "Individual",
+    team: "2-3 members",
     fees: "Free",
     contactInfo: ["Nayan : 9834020168", "Hrutik : 9881087152"],
     location: "A WING",
-    date: "20 FEB",
+    date: "20th Feb, 10:00 am onwards.",
     note: [""],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeXHY3fe3259AmtmItE5u86mwj17aDg3H6KpPwq4yGa54AkUQ/viewform",
   },
@@ -435,12 +446,13 @@ export const eventsData = [
       "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
-   },
-   {
+  },
+  {
     id: 14,
     image: BotBusters,
     name: "ROBO Buster",
-    description: " ENTC department Presents ROBO BURSTER This game is all about team war between 4 people which will be in 2v2 form. In this event we have to burst all the balloon/lives of the opponent’s bot before the given time limit, the team which bursts all the balloons in minimum time will be the winner of the event. It’s more like TDM (Team Death Match).Step into a world of excitement with Robots! Go wild as you race against time and pop balloons, dodge needles and beat the clock to become the ultimate BURSTER. Get ready and buckle up your seats",
+    description:
+      " ENTC department Presents ROBO BURSTER This game is all about team war between 4 people which will be in 2v2 form. In this event we have to burst all the balloon/lives of the opponent’s bot before the given time limit, the team which bursts all the balloons in minimum time will be the winner of the event. It’s more like TDM (Team Death Match).Step into a world of excitement with Robots! Go wild as you race against time and pop balloons, dodge needles and beat the clock to become the ultimate BURSTER. Get ready and buckle up your seats",
     rules: [
       "OBJECTIVE: To burst maximum number of balloons in minimum  amount of time.",
       "COMPOSITION OF TEAM:  2 players per team.",
@@ -455,14 +467,11 @@ export const eventsData = [
       "There is friendly fire also, if you burst your teammate’s balloon the point will be allocated to your opponents so watch out where you attack!",
       "Talking about winning prizes",
       "Top 3 teams with minimum time and maximum points will be given amazing goodies",
-     ],
+    ],
     prizes: ["Goodies depending upon no of registration"],
     team: "2 Members Team",
     fees: "50 Rs. per team (If you do not have teammates we will pair you up, charges for solo registration will be Rs.30.)",
-    contactInfo: [
-      "Ayush Nagpure : 9325864885",
-      "Ajinkya Jawale : 8767027701",
-    ],
+    contactInfo: ["Ayush Nagpure : 9325864885", "Ajinkya Jawale : 8767027701"],
     location: "Lawn in front of C wing",
     date: "20th Feb (Full Day)",
     note: [""],
@@ -472,16 +481,14 @@ export const eventsData = [
     id: 15,
     image: CadCompetiton,
     name: "CAD Competition",
-    description: " CAD Competition is an event where students interested in designing and modeling can show their skills/talent and win exciting prizes. CAD Competition is not limited by specific software use, any designing software, be it Solidworks, Catia, AutoCAD, etc. can be used by participants. Participants can bring their own laptop/system consisting of any design software or else system will be provided to them by organizers",
+    description:
+      " CAD Competition is an event where students interested in designing and modeling can show their skills/talent and win exciting prizes. CAD Competition is not limited by specific software use, any designing software, be it Solidworks, Catia, AutoCAD, etc. can be used by participants. Participants can bring their own laptop/system consisting of any design software or else system will be provided to them by organizers",
     rules: [
       "Make design from scratch",
       "No use of the Internet while designing.",
       "2 hours duration for designing.",
-     ],
-    prizes: [
-      "1st: Mivi Duopods",
-      "2nd: Laptop Bag",
     ],
+    prizes: ["1st: Mivi Duopods", "2nd: Laptop Bag"],
     team: "2 Members Team",
     fees: "100 Rs",
     contactInfo: [
@@ -497,7 +504,8 @@ export const eventsData = [
     id: 16,
     image: TremblingTower,
     name: "TREMBLING TOWER",
-    description: "Civil Engineering Student Association Presents TREMBLING TOWER A tower making competition In this event a tower is to be built with the help of Popsicle sticks. The Material required and Dimensions for making tower will be provided. It is a game of skill + mind. So let’s make a unique structure. Do join us and win exciting prizes.",
+    description:
+      "Civil Engineering Student Association Presents TREMBLING TOWER A tower making competition In this event a tower is to be built with the help of Popsicle sticks. The Material required and Dimensions for making tower will be provided. It is a game of skill + mind. So let’s make a unique structure. Do join us and win exciting prizes.",
     rules: [
       "OBJECTIVE: To design and build a tower, which will bear the maximum load by using only popsicle sticks and glue.",
       "MATERIALS:",
@@ -517,11 +525,8 @@ export const eventsData = [
       "   Use of materials other than which are provided by us is strictly prohibited.",
       "   Participants should make top platform by using popsicle sticks as load will be given from top platform.",
       "   If the dimensional error exceeds 1cm model will be disqualified.",
-     ],
-    prizes: [
-      "Winner:3000",
-      "Runner up:2000",
     ],
+    prizes: ["Winner:3000", "Runner up:2000"],
     team: "2 to 4 members per team.",
     fees: "Rs.200/ Team",
     contactInfo: [
@@ -530,23 +535,26 @@ export const eventsData = [
     ],
     location: "Lawn in front of C wing",
     date: "Tower making: 20 Feb 2023, 10 AM onwards, Tower testing: 21 Feb 2023, 10 AM onwards",
-    note: ["No other material may be used for construction of tower. Tower may not be painted."],
+    note: [
+      "No other material may be used for construction of tower. Tower may not be painted.",
+    ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf37Z0h9Rya9TXifYPuuQU4QPs-LglQHpKIc3Ve4uJ8ytbpdg/viewform",
   },
   {
     id: 17,
     image: SpeedTypers,
     name: "SPEED TYPERS",
-    description: "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
+    description:
+      "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
     rules: [
       "Players can have one trial round to understand the game.",
       "Each player can play the game only 3 times. ",
       "The best score out of three games will be considered as the final score.",
       "The player will be judged by the final score and accuracy after the game.",
-      "EVALUATION CRITERIA:", 
+      "EVALUATION CRITERIA:",
       "   The final score and accuracy of the player will be recorded and displayed on the leaderboard.",
       "   At the end of the event the players on the top of the leaderboards will be the winners.",
-     ],
+    ],
     prizes: [
       "7000 first prizes",
       "5000 second prizes",
@@ -555,9 +563,7 @@ export const eventsData = [
     ],
     team: "Individual",
     fees: "Free",
-    contactInfo: [
-      "Prasad Upasani : 7774040131",
-    ],
+    contactInfo: ["Prasad Upasani : 7774040131"],
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
     note: [""],
@@ -567,7 +573,8 @@ export const eventsData = [
     id: 18,
     image: Blogathon,
     name: "BLOGATHON",
-    description: "Iasc Blogathon Hola amigos!🤩 Our team IASC DYPCOE in collaboration with SAMBHAV and ABHIVYAKTI ✨ is back with another exciting event! This is our first ever Blog-a-thon💬 with exciting prizes 🏆 for the winners! You have to write ✍️ a blog on the Topic:- Your Journey falling in love with a tech👩‍💻domain The Deadline for submission is 21st December 5:00 pm. Along with prizes🏆 the top 3 submissions would also get a chance to be featured in our college magazine via team Abhivyakti 💫 So what are you waiting for?!🤩 Get your creative minds running 🌟 We are eager to read about your Journey!❤️",
+    description:
+      "Iasc Blogathon Hola amigos!🤩 Our team IASC DYPCOE in collaboration with SAMBHAV and ABHIVYAKTI ✨ is back with another exciting event! This is our first ever Blog-a-thon💬 with exciting prizes 🏆 for the winners! You have to write ✍️ a blog on the Topic:- Your Journey falling in love with a tech 👩‍💻 domain The Deadline for submission is 21st December 5:00 pm. Along with prizes🏆 the top 3 submissions would also get a chance to be featured in our college magazine via team Abhivyakti 💫 So what are you waiting for?!🤩 Get your creative minds running 🌟 We are eager to read about your Journey!❤️",
     rules: [
       "Plagiarized or AI generated content is strictly not allowed. If found, we will disqualify it immediately.",
       "The word limit of the blog should be between 800-1200 words.",
@@ -575,13 +582,11 @@ export const eventsData = [
       "The Blog can be published on any blogging website of your choice eg-linkedin,twitter,medium,hashnode etc. Try to use a popular website so it will be easier to promote.",
       "The Blog is expected to be descriptive i.e focusing on why you got into a specific tech domain,how you got interested and the challenges you faced while exploring it. We don’t expect you to go into the technicalities of the domain",
       "You are expected to use the following hashtags compulsorily while posting the blog:- #iasc #iascdypcoe #sambhav #blog-athon and can add additional hashtags of your choice.",
-      "EVALUATION CRITERIA:", 
+      "EVALUATION CRITERIA:",
       "   The Blog would be given a score out of 50,where 35 marks are for the quality of content and the rest 15 marks are for how well it is promoted.",
       "   Total score=Content(35) + No.of votes(converted out of 15)=50",
-     ],
-    prizes: [
-      "winners will get there blog published in college magazine",
     ],
+    prizes: ["winners will get there blog published in college magazine"],
     team: "Individual",
     fees: "Free",
     contactInfo: [
@@ -597,17 +602,18 @@ export const eventsData = [
     id: 19,
     image: ReadandType,
     name: "READ AND TYPE",
-    description: "Read and Type is a two-player game that requires quick reflexes and strong teamwork. The game is simple in concept but challenging in execution. One player reads a text passage while the other player types it out as accurately as possible. The catch is that they only have six minutes to complete the task. The faster and more accurately the players work, the more points they can score. The reader must be able to read quickly and clearly while the typist must be able to type with speed and accuracy. Communication is key, as the reader must be able to alert the typist to any errors or mistakes in the text.",
+    description:
+      "Read and Type is a two-player game that requires quick reflexes and strong teamwork. The game is simple in concept but challenging in execution. One player reads a text passage while the other player types it out as accurately as possible. The catch is that they only have six minutes to complete the task. The faster and more accurately the players work, the more points they can score. The reader must be able to read quickly and clearly while the typist must be able to type with speed and accuracy. Communication is key, as the reader must be able to alert the typist to any errors or mistakes in the text.",
     rules: [
       "This event will be a pair event.",
       "You could come with your friend or get a partner on the spot with the available contestants.",
       "Each pair will be given books where one person will read the given text for 3 minutes and the other will type it as fast he/she can.",
       "Then for the next 3 minutes they will switch sides and do the same.",
       "Each team has to attempt to type down Maximum number of words in the given time with high accuracy.",
-      "EVALUATION CRITERIA:", 
+      "EVALUATION CRITERIA:",
       "   The text typed by both members will be evaluated using an AI tool.",
       "   The team with the highest accuracy and number of words will win.",
-     ],
+    ],
     prizes: [
       "The winners from Day 1 and Day 2 both will be evaluated and a Leaderboard will be made the Top 10 teams will be Winners and will win free Membership From Books and Beyond ",
     ],
@@ -621,30 +627,29 @@ export const eventsData = [
     ],
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
-    note: ["This fast-paced game is for those who want to put their teamwork and typing skills to the test."],
+    note: [
+      "This fast-paced game is for those who want to put their teamwork and typing skills to the test.",
+    ],
     link: "",
   },
   {
     id: 20,
     image: quiz,
     name: "Quiz",
-    description: "In this contest at a time 5 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. If he/she gives the right answer 10 points will be rewarded, if the wrong answer then (-5) points.",
+    description:
+      "In this contest at a time 5 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. If he/she gives the right answer 10 points will be rewarded, if the wrong answer then (-5) points.",
     rules: [
       "This quiz is based on the buzzer system. The person who hits the buzzer first will be given first priority to answer the question.",
       "Complete individual event.",
       "+10 points for each correct answer.",
       "-2 points for each wrong answer.",
-      "EVALUATION CRITERIA:", 
+      "EVALUATION CRITERIA:",
       "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
-     ],
-    prizes: [
-      "Yet to be announced",
     ],
+    prizes: ["Yet to be announced"],
     team: "5 contestants at a time",
     fees: "Free",
-    contactInfo: [
-      "Yash Gokakkar : 7499822665",
-    ],
+    contactInfo: ["Yash Gokakkar : 7499822665"],
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
     note: [""],
@@ -654,7 +659,7 @@ export const eventsData = [
     id: 21,
     image: Hackathon,
     name: "7BITS",
-    description:[ 
+    description: [
       "The upcoming contest is a great opportunity for computer science enthusiasts to test their skills in Data Structure and Algorithm (DSA) problems. The contest will feature a total of 7 DSA problems, with 2 problems being easy, 4 medium-level problems, and 1 challenging problem. Participants will be able to solve the problems in a time frame of 2 hours and the team size should consist of a minimum of 2 students and a maximum of 4 students.",
       "To ensure a smooth and seamless experience, each team will be provided with 2 PCs. Teams are also welcome to bring their own laptops if they prefer. The top 3 teams will be rewarded with a 3-month subscription to TLE ELIMINATORS, a valuable resource for anyone looking to enhance their DSA skills. In addition, the top 10 teams will receive stickers as a token of appreciation for their participation.",
       "This contest is a fantastic opportunity for individuals or teams to showcase their DSA knowledge and skills. So gear up, bring your best problem-solving skills, and get ready to participate in this exciting contest!",
@@ -662,22 +667,18 @@ export const eventsData = [
     rules: [
       "Eligibility: The contest is open for every registered participant.",
       "Contest Format: The contest will consist of a set of 7 DSA problems, with 2 problems being easy, 4 medium-level problems, and 1 challenging problem, all to be solved in the time frame of 2 hours.",
-      "Programming Languages: Participants may use any programming language that is supported by the Hackerrank.", 
+      "Programming Languages: Participants may use any programming language that is supported by the Hackerrank.",
       "Plagiarism: Any instance of plagiarism will result in immediate disqualification.",
       "Code of Conduct: All participants are expected to follow a code of conduct that includes respecting fellow participants and avoiding any behavior that might be considered offensive or disrespectful.",
       "Prohibited Materials: Participants are not allowed to bring any electronic devices, including mobile phones, into the contest area.",
       "Tiebreakers: In the event of a tie, the tiebreaker will be based on the time of submission for the last correct answer.",
       "Organizing Committee: The organizing committee reserves the right to disqualify any participant who violates the rules and regulations of the contest.",
       "Rule Changes: The organizing committee reserves the right to make changes to the rules and regulations of the contest at any time, and participants will be notified of any changes in advance.",
-     ],
-    prizes: [
-      "EXICITING PRIZES AND REWARDS",
     ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "2-4 Students in a team",
     fees: " Free",
-    contactInfo: [
-      "Aryan Jangid : 7665313444",
-    ],
+    contactInfo: ["Aryan Jangid : 7665313444"],
     location: "AI & DS lab",
     date: "22th Feb 2022",
     note: [""],
@@ -687,7 +688,8 @@ export const eventsData = [
     id: 22,
     image: GamingZone,
     name: "GAMING ARENA",
-    description: "An interactive gaming zone consisting of games like Valorant and Fall Guys. Valorant will be a time game, where in each team will consist 5 players; 2 teams competing against each other Whereas Fall Guys, it will be an individual game.",
+    description:
+      "An interactive gaming zone consisting of games like Valorant and Fall Guys. Valorant will be a time game, where in each team will consist 5 players; 2 teams competing against each other Whereas Fall Guys, it will be an individual game.",
     rules: [
       "Valorant: ",
       "   Every team must contain 3-5 players. (Team having less than 3 players is not allowed!)",
@@ -701,16 +703,11 @@ export const eventsData = [
       "   Game will be executed in batches. 9-10 players will be playing in a private lobby in a batch. One winner will be drawn from every batch.",
       "   winner will be getting some exciting rewards.",
       "   On spot registrations are allowed but priority will be given to pre-registrations.",
-     ],
-    prizes: [
-      "EXICITING PRIZES AND REWARDS",
     ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "valorant: 3-5 players , Fall guys: 9-10 players",
     fees: "Valorant: ₹100/Team, Fall guys: ₹30/Team",
-    contactInfo: [
-      "Nikhil : 91236 81089",
-      "Abhishek : 96070 52928",
-    ],
+    contactInfo: ["Nikhil : 91236 81089", "Abhishek : 96070 52928"],
     location: "A wing (FPL lab)",
     date: "20 and 21st Feb 2023 (11 am to 5 pm)",
     note: [""],
@@ -721,17 +718,11 @@ export const eventsData = [
     image: KeynoteSession,
     name: "KEYNOTE SESSION",
     description: "",
-    rules: [
-      "",
-     ],
-    prizes: [
-      "",
-    ],
+    rules: [""],
+    prizes: [""],
     team: "",
     fees: "",
-    contactInfo: [
-      "",
-    ],
+    contactInfo: [""],
     location: "",
     date: "",
     note: [""],
@@ -742,17 +733,11 @@ export const eventsData = [
     image: SupercarShow,
     name: "SUPERCAR SHOW",
     description: "",
-    rules: [
-      "",
-     ],
-    prizes: [
-      "",
-    ],
+    rules: [""],
+    prizes: [""],
     team: "",
     fees: "",
-    contactInfo: [
-      "",
-    ],
+    contactInfo: [""],
     location: "",
     date: "",
     note: [""],
@@ -762,18 +747,17 @@ export const eventsData = [
     id: 25,
     image: SupercarShow,
     name: "SPINNING RIVAL",
-    description: "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
+    description:
+      "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
     rules: [
       "At a time two participants should be present while spinning the wheel.",
-      "When spinning wheel stops, it will indicate to a special coding problem.", 
+      "When spinning wheel stops, it will indicate to a special coding problem.",
       "An indication will be provided to start solving the coding problem for the two rivals.",
       "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
-     ],
-    prizes: [
-      "EXICITING PRIZES AND REWARDS",
     ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "Individual",
-    fees:"Free",
+    fees: "Free",
     contactInfo: [
       "Vedika Sangle : 9578907935",
       "Utkarsha Kesarkar : 7887440601",
@@ -787,23 +771,20 @@ export const eventsData = [
     id: 26,
     image: SupercarShow,
     name: "TREASURE HUNT",
-    description: "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
+    description:
+      "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
     rules: [
       "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
-      "Do not open and view the clues prior to the announcement that the hunt has started.", 
+      "Do not open and view the clues prior to the announcement that the hunt has started.",
       "Teams must stay together during the Treasure Hunt and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
       "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
       "Teams may or may not use smartphones or mobile internet devices.",
       "The Treasure Hunt begins at 1:00 p.m.",
-     ],
-    prizes: [
-      "EXICITING PRIZES AND REWARDS",
     ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "Individual",
-    fees:"Free",
-    contactInfo: [
-      "Vaishnavi Varkur : 8828090518",
-    ],
+    fees: "Free",
+    contactInfo: ["Vaishnavi Varkur : 8828090518"],
     location: "A WING",
     date: "21th FEB (Full Day)",
     note: [""],
