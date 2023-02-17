@@ -557,10 +557,10 @@ export const eventsData = [
       "   At the end of the event the players on the top of the leaderboards will be the winners.",
     ],
     prizes: [
-      "7000 first prizes",
-      "5000 second prizes",
-      "3000 third prizes",
-      "500 (top 10 )",
+      "2000 first prizes",
+      "1000 second prizes",
+      "500 third prizes",
+      "Goodies (top 10 )",
     ],
     team: "Individual",
     fees: "Free",
@@ -568,7 +568,7 @@ export const eventsData = [
     location: "about to be fixed",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
     note: [""],
-    link: "",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 18,
@@ -631,7 +631,7 @@ export const eventsData = [
     note: [
       "This fast-paced game is for those who want to put their teamwork and typing skills to the test.",
     ],
-    link: "",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 20,
@@ -658,7 +658,7 @@ export const eventsData = [
     location: "Virtusa Lab (A Wing)",
     date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
     note: [""],
-    link: "",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 21,
