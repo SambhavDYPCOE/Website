@@ -47,7 +47,7 @@ export const eventsData = [
     ],
     prizes: ["1st Prize: ₹7000", "2nd Prize: ₹5000", "3rd Prize: ₹3000"],
     team: "2-4",
-    fees: "₹ 200 per team",
+    fees: "₹100 per team",
     contactInfo: [
       "Pratik Patil : 9370438737",
       "Dnyanesh Bachhav : 9370735440",
