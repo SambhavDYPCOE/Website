@@ -614,6 +614,9 @@ export const eventsData = [
       "EVALUATION CRITERIA:",
       "   The text typed by both members will be evaluated using an AI tool.",
       "   The team with the highest accuracy and number of words will win.",
+      "Total points awarded are 100",
+      "For number of words 50 points and for accuracy of words 50 points.", 
+      "For typing of 200+ words you get 50 points and for every wrong spelling 2 points are deducted."
     ],
     prizes: [
       "The winners from Day 1 and Day 2 both will be evaluated and a Leaderboard will be made the Top 10 teams will be Winners and will win free Membership From Books and Beyond ",
