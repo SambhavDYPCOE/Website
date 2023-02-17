@@ -22,6 +22,8 @@ import web3 from "./Events/Web3.png";
 import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 import Hackathon from "./Events/Hackathon.png";
+import TreasureHunt from "./Events/TreasureHunt.png"; 
+import SpinningRival from "./Events/SpinningRival.png";
 import quiz from "./Events/quiz.png";
 
 export const eventsData = [
@@ -740,20 +742,20 @@ export const eventsData = [
     id: 24,
     image: SupercarShow,
     name: "SUPERCAR SHOW",
-    description: "",
-    rules: [""],
-    prizes: [""],
-    team: "",
-    fees: "",
+    description: "A car show is where car enthusiasts gather to showcase and admire various cars, including vintage, classic, modern, JDM, and tuned models. JDM cars are Japanese domestic market vehicles that are highly sought after for their performance and style. Car shows offer a chance for owners to display their prized possessions and for the public to appreciate the beauty and innovation of automobiles.",
+    rules: ["NA"],
+    prizes: ["NA"],
+    team: "Individual",
+    fees: "Free",
     contactInfo: [""],
-    location: "",
-    date: "",
+    location: "D. Y. Patil Education Complex, Akurdi",
+    date: "20th Feb",
     note: [""],
     link: "",
   },
   {
     id: 25,
-    image: SupercarShow,
+    image: SpinningRival,
     name: "SPINNING RIVAL",
     description:
       "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
@@ -777,7 +779,7 @@ export const eventsData = [
   },
   {
     id: 26,
-    image: SupercarShow,
+    image: TreasureHunt,
     name: "TREASURE HUNT",
     description:
       "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
