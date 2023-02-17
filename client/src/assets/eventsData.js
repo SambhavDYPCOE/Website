@@ -18,6 +18,7 @@ import GamingZone from "./Events/GamingZone.png";
 import KeynoteSession from "./Events/KeynoteSession.png";
 import ReadandType from "./Events/ReadandType.png";
 import SpeedTypers from "./Events/SpeedTypers.png";
+import web3 from "./Events/Web3.png";
 import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 import Hackathon from "./Events/Hackathon.png";
@@ -787,6 +788,38 @@ export const eventsData = [
     contactInfo: ["Vaishnavi Varkur : 8828090518"],
     location: "A WING",
     date: "21th FEB (Full Day)",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 27,
+    image: web3,
+    name: "Introduction to Web3",
+    description:[
+      "We GDSC DYPCOE are going to conduct our first ever event in Web3 domain “Introduction to Web3” at our pristine institute DYPCOE. Web3 (also known as Web 3.0]) is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics. The most worth noting difference between web3 and web2 is decentralization and the way it has been achieved.",
+      "Key things that will be achieved in the event : ",
+      "Getting familiarized with Web3",
+      "Presentation and introduction of domain",
+      "Seminar,",
+      "Providing roadmaps for web3 technologies, ",
+      "along with PPT we will show some videos ",
+      "we will also have interaction with kids",
+      "Networking,",
+      "Quiz Competitions",
+      "Overall it will totally a fun and more specifically an informative event. Students will get a chance to resolve their doubts personally with the domain expert. ",
+    ],
+    rules: [
+      "NA",
+    ],
+    prizes: ["NA"],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: [
+      "Ashutosh Shimpi : 8087572655", 
+      "Nikhil Shinde : 8007243335",
+    ],
+    location: "Dyanprasad Sabhagruha, DYP Campus",
+    date: "20th Feb, 2022",
     note: [""],
     link: "",
   },
