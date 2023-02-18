@@ -179,7 +179,7 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <HashLink className={classes.homeLink} to="#home">
+                <HashLink className={classes.homeLink} to="/">
                   Home
                 </HashLink>
               </Drop>
