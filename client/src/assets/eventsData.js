@@ -22,7 +22,7 @@ import web3 from "./Events/Web3.png";
 import SupercarShow from "./Events/SupercarShow.png";
 import TremblingTower from "./Events/TremblingTower.png";
 import Hackathon from "./Events/Hackathon.png";
-import TreasureHunt from "./Events/TreasureHunt.png"; 
+import TreasureHunt from "./Events/TreasureHunt.png";
 import SpinningRival from "./Events/SpinningRival.png";
 import quiz from "./Events/quiz.png";
 
@@ -85,7 +85,7 @@ export const eventsData = [
     location: "A WING",
     date: "21th FEB (Full Day)",
     note: [""],
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSehzAtg5Sy5C4B5WkVTeD5SGxLrq0fSKzqdSKLh2UvJQkRVnA/viewform",
   },
   {
     id: 3,
@@ -109,7 +109,7 @@ export const eventsData = [
     location: "A WING",
     date: "20th FEB",
     note: [""],
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfW29NpK5FGba-846Sr2WpwXRkc5Aef3cX_60c-eCxobjH2Zg/viewform?usp=sf_link",
   },
   {
     id: 4,
@@ -268,15 +268,17 @@ export const eventsData = [
       "Complete individual event.",
       "EVALUATION CRITERIA:",
       "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
-      "   Every Contestant should have a smart phone with constant internate connection.", 
-      "   Hotspot facility will provided by the organizer."
+      "   Every Contestant should have a smart phone with constant internate connection.",
+      "   Hotspot facility will provided by the organizer.",
     ],
-    prizes: ["Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",],
+    prizes: [
+      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
+    ],
     team: "5 contestants at a time",
     fees: "Free",
     contactInfo: [
       "Yash Gokakkar : 7499822665",
-      "Omkar Shedge : 8308882756", 
+      "Omkar Shedge : 8308882756",
       "Sarvesh Zende : 9356552975",
     ],
     location: "Virtusa Lab (A Wing)",
@@ -642,7 +644,7 @@ export const eventsData = [
     prizes: [
       "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
       "winners will get there blog published in college magazine",
-      ],
+    ],
     team: "Individual",
     fees: "Free",
     contactInfo: [
@@ -670,8 +672,8 @@ export const eventsData = [
       "   The text typed by both members will be evaluated using an AI tool.",
       "   The team with the highest accuracy and number of words will win.",
       "Total points awarded are 100",
-      "For number of words 50 points and for accuracy of words 50 points.", 
-      "For typing of 200+ words you get 50 points and for every wrong spelling 2 points are deducted."
+      "For number of words 50 points and for accuracy of words 50 points.",
+      "For typing of 200+ words you get 50 points and for every wrong spelling 2 points are deducted.",
     ],
     prizes: [
       "The winners from Day 1 and Day 2 both will be evaluated and a Leaderboard will be made the Top 10 teams will be Winners and will win free Membership From Books and Beyond ",
@@ -775,7 +777,8 @@ export const eventsData = [
     id: 25,
     image: SupercarShow,
     name: "SUPERCAR SHOW",
-    description: "A car show is where car enthusiasts gather to showcase and admire various cars, including vintage, classic, modern, JDM, and tuned models. JDM cars are Japanese domestic market vehicles that are highly sought after for their performance and style. Car shows offer a chance for owners to display their prized possessions and for the public to appreciate the beauty and innovation of automobiles.",
+    description:
+      "A car show is where car enthusiasts gather to showcase and admire various cars, including vintage, classic, modern, JDM, and tuned models. JDM cars are Japanese domestic market vehicles that are highly sought after for their performance and style. Car shows offer a chance for owners to display their prized possessions and for the public to appreciate the beauty and innovation of automobiles.",
     rules: ["NA"],
     prizes: ["NA"],
     team: "Individual",
@@ -812,7 +815,7 @@ export const eventsData = [
     id: 27,
     image: web3,
     name: "Introduction to Web3",
-    description:[
+    description: [
       "We GDSC DYPCOE are going to conduct our first ever event in Web3 domain “Introduction to Web3” at our pristine institute DYPCOE. Web3 (also known as Web 3.0]) is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, and token-based economics. The most worth noting difference between web3 and web2 is decentralization and the way it has been achieved.",
       "Key things that will be achieved in the event : ",
       "Getting familiarized with Web3",
@@ -825,16 +828,11 @@ export const eventsData = [
       "Quiz Competitions",
       "Overall it will totally a fun and more specifically an informative event. Students will get a chance to resolve their doubts personally with the domain expert. ",
     ],
-    rules: [
-      "NA",
-    ],
+    rules: ["NA"],
     prizes: ["NA"],
     team: "Individual",
     fees: "Free",
-    contactInfo: [
-      "Ashutosh Shimpi : 8087572655", 
-      "Nikhil Shinde : 8007243335",
-    ],
+    contactInfo: ["Ashutosh Shimpi : 8087572655", "Nikhil Shinde : 8007243335"],
     location: "Dyanprasad Sabhagruha, DYP Campus",
     date: "20th Feb, 2022",
     note: [""],
