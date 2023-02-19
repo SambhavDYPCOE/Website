@@ -62,7 +62,7 @@ export const eventsData = [
       "Teams having a working model of their idea will be considered as a plus point by judging panel.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://t.ly/khoj",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSflBya7_eDYE43kIwv6acx5TpqyqXkrQMgmOtLM5oYAnfJAzA/viewform?usp=sf_link",
   },
   {
     id: 2,
