@@ -66,6 +66,53 @@ export const eventsData = [
   },
   {
     id: 2,
+    image: TreasureHunt,
+    name: "TREASURE HUNT",
+    description:
+      "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
+    rules: [
+      "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
+      "Do not open and view the clues prior to the announcement that the hunt has started.",
+      "Teams must stay together during the Treasure Hunt and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
+      "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
+      "Teams may or may not use smartphones or mobile internet devices.",
+      "The Treasure Hunt begins at 1:00 p.m.",
+    ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: ["Vaishnavi Varkur : 8828090518"],
+    location: "A WING",
+    date: "21th FEB (Full Day)",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 3,
+    image: SpinningRival,
+    name: "SPINNING RIVAL",
+    description:
+      "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
+    rules: [
+      "At a time two participants should be present while spinning the wheel.",
+      "When spinning wheel stops, it will indicate to a special coding problem.",
+      "An indication will be provided to start solving the coding problem for the two rivals.",
+      "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
+    ],
+    prizes: ["EXICITING PRIZES AND REWARDS"],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: [
+      "Vedika Sangle : 9578907935",
+      "Utkarsha Kesarkar : 7887440601",
+    ],
+    location: "A WING",
+    date: "20th FEB",
+    note: [""],
+    link: "",
+  },
+  {
+    id: 4,
     image: BlindCoding,
     name: "Blind Coding",
     description:
@@ -103,7 +150,7 @@ export const eventsData = [
     onSpot: "",
   },
   {
-    id: 3,
+    id: 5,
     image: FlyHigh,
     name: "FLY HIGH SHOW",
     description:
@@ -122,29 +169,7 @@ export const eventsData = [
     link: "",
   },
   {
-    id: 4,
-    image: SpaceExpo,
-    name: "SPACE TECH",
-    description:
-      "Space expo will be a presentation of highly appreciated space models from all space Organizations. n this event we will showcase models of launch vehicles like GSLV,  PSLV from ISRO. Likewise the high end missions like Mars orbiter mission, Chandrayaan 2, ASTROSAT will be detailed and showcased by multiple models and informative banners. Major satellites like Parker Solar Probe, Hubble Telescope, Astrosat, Sputnik will be discussed and their models will be showcased.",
-    rules: ["NA"],
-    prizes: ["NA"],
-    team: "Individual",
-    fees: "Free",
-    contactInfo: [
-      "Paras Dhongade  : 7798647910",
-      "Shriraksha SN   : 8767997653",
-    ],
-    location: "Center Lawn",
-    date: "20th and 21st Feb (10:00am onwards)",
-    note: [
-      "Quiz will be conducted regarding space technology, few lucky winners will get exciting goodies and gifts",
-    ],
-    link: "",
-    onSpot: "true",
-  },
-  {
-    id: 5,
+    id: 6,
     image: RelayRacing,
     name: "Bot relay race",
     description:
@@ -184,7 +209,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLScfe2rSolO-FC-q7puLr2ca9UL3o0xDW4UJViqqX5tmDwbrBQ/viewform",
   },
   {
-    id: 6,
+    id: 7,
     image: MurderMystery,
     name: "Murder Mystery",
     description: [
@@ -206,7 +231,61 @@ export const eventsData = [
     link: "https://tinyurl.com/mudermystery",
   },
   {
-    id: 7,
+    id: 8,
+    image: SpeedTypers,
+    name: "SPEED TYPERS",
+    description:
+      "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
+    rules: [
+      "Players can have one trial round to understand the game.",
+      "Each player can play the game only 3 times. ",
+      "The best score out of three games will be considered as the final score.",
+      "The player will be judged by the final score and accuracy after the game.",
+      "EVALUATION CRITERIA:",
+      "   The final score and accuracy of the player will be recorded and displayed on the leaderboard.",
+      "   At the end of the event the players on the top of the leaderboards will be the winners.",
+    ],
+    prizes: [
+      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
+      "Goodies (top 10 )",
+    ],
+    team: "Individual",
+    fees: "Free",
+    contactInfo: ["Prasad Upasani : 7774040131"],
+    location: "about to be fixed",
+    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: [""],
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+  },
+  {
+    id: 9,
+    image: quiz,
+    name: "Quiz",
+    description:
+      "In this contest at a time minimum 10 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. Maximum points to be awarded to the contestent if he/she gives correct answer in minimum time.",
+    rules: [
+      "This quiz is based on the buzzer system. The person who hits the buzzer first will be given first priority to answer the question.",
+      "Complete individual event.",
+      "EVALUATION CRITERIA:",
+      "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
+      "   Every Contestant should have a smart phone with constant internate connection.", 
+      "   Hotspot facility will provided by the organizer."
+    ],
+    prizes: ["Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",],
+    team: "5 contestants at a time",
+    fees: "Free",
+    contactInfo: [
+      "Yash Gokakkar : 7499822665",
+      "Omkar Shedge : 8308882756", 
+      "Sarvesh Zende : 9356552975",
+    ],
+    location: "Virtusa Lab (A Wing)",
+    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
+    note: [""],
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+  },
+  {
+    id: 10,
     image: HopSites,
     name: "Hop Sites",
     description: [
@@ -236,7 +315,7 @@ export const eventsData = [
     link: "",
   },
   {
-    id: 8,
+    id: 11,
     image: CodeBuddies,
     name: "CodeBuddies",
     description: [
@@ -268,7 +347,7 @@ export const eventsData = [
     link: "/",
   },
   {
-    id: 9,
+    id: 12,
     image: MaskedCoding,
     name: "Masked coding",
     description:
@@ -295,7 +374,7 @@ export const eventsData = [
     link: "/",
   },
   {
-    id: 10,
+    id: 13,
     image: ShotOnQuiz,
     name: "Shot On Quiz",
     description:
@@ -327,7 +406,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeXHY3fe3259AmtmItE5u86mwj17aDg3H6KpPwq4yGa54AkUQ/viewform",
   },
   {
-    id: 11,
+    id: 14,
     image: RoboRace,
     name: "ROBO Race",
     description:
@@ -370,7 +449,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
   },
   {
-    id: 12,
+    id: 15,
     image: DraicPlayground,
     name: "DRAIC Playground",
     description: "Remaining",
@@ -386,7 +465,7 @@ export const eventsData = [
     onSpot: "true",
   },
   {
-    id: 13,
+    id: 16,
     image: RoboSoccer,
     name: "ROBO Soccer",
     description:
@@ -451,7 +530,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
   },
   {
-    id: 14,
+    id: 17,
     image: BotBusters,
     name: "ROBO Buster",
     description:
@@ -481,7 +560,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
   },
   {
-    id: 15,
+    id: 18,
     image: CadCompetiton,
     name: "CAD Competition",
     description:
@@ -504,7 +583,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdoBbbc_iWaqnNIhqyKIGMeQP5JWhjXmtUTaDtxBsUmts_PZg/viewform",
   },
   {
-    id: 16,
+    id: 19,
     image: TremblingTower,
     name: "TREMBLING TOWER",
     description:
@@ -544,36 +623,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf37Z0h9Rya9TXifYPuuQU4QPs-LglQHpKIc3Ve4uJ8ytbpdg/viewform",
   },
   {
-    id: 17,
-    image: SpeedTypers,
-    name: "SPEED TYPERS",
-    description:
-      "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
-    rules: [
-      "Players can have one trial round to understand the game.",
-      "Each player can play the game only 3 times. ",
-      "The best score out of three games will be considered as the final score.",
-      "The player will be judged by the final score and accuracy after the game.",
-      "EVALUATION CRITERIA:",
-      "   The final score and accuracy of the player will be recorded and displayed on the leaderboard.",
-      "   At the end of the event the players on the top of the leaderboards will be the winners.",
-    ],
-    prizes: [
-      "2000 first prizes",
-      "1000 second prizes",
-      "500 third prizes",
-      "Goodies (top 10 )",
-    ],
-    team: "Individual",
-    fees: "Free",
-    contactInfo: ["Prasad Upasani : 7774040131"],
-    location: "about to be fixed",
-    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
-    note: [""],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
-  },
-  {
-    id: 18,
+    id: 20,
     image: Blogathon,
     name: "BLOGATHON",
     description:
@@ -589,7 +639,10 @@ export const eventsData = [
       "   The Blog would be given a score out of 50,where 35 marks are for the quality of content and the rest 15 marks are for how well it is promoted.",
       "   Total score=Content(35) + No.of votes(converted out of 15)=50",
     ],
-    prizes: ["winners will get there blog published in college magazine"],
+    prizes: [
+      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
+      "winners will get there blog published in college magazine",
+      ],
     team: "Individual",
     fees: "Free",
     contactInfo: [
@@ -602,7 +655,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfT4q9dRseQqkbgxfOIZ9CUXGgmtHMZHCLR9IucOMeLuiv_Pg/viewform",
   },
   {
-    id: 19,
+    id: 21,
     image: ReadandType,
     name: "READ AND TYPE",
     description:
@@ -622,6 +675,7 @@ export const eventsData = [
     ],
     prizes: [
       "The winners from Day 1 and Day 2 both will be evaluated and a Leaderboard will be made the Top 10 teams will be Winners and will win free Membership From Books and Beyond ",
+      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
     ],
     team: "Team of 2",
     fees: "Free",
@@ -639,34 +693,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
-    id: 20,
-    image: quiz,
-    name: "Quiz",
-    description:
-      "In this contest at a time minimum 10 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. Maximum points to be awarded to the contestent if he/she gives correct answer in minimum time.",
-    rules: [
-      "This quiz is based on the buzzer system. The person who hits the buzzer first will be given first priority to answer the question.",
-      "Complete individual event.",
-      "EVALUATION CRITERIA:",
-      "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
-      "   Every Contestant should have a smart phone with constant internate connection.", 
-      "   Hotspot facility will provided by the organizer."
-    ],
-    prizes: ["GOODIES"],
-    team: "5 contestants at a time",
-    fees: "Free",
-    contactInfo: [
-      "Yash Gokakkar : 7499822665",
-      "Omkar Shedge : 8308882756", 
-      "Sarvesh Zende : 9356552975",
-    ],
-    location: "Virtusa Lab (A Wing)",
-    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
-    note: [""],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
-  },
-  {
-    id: 21,
+    id: 22,
     image: Hackathon,
     name: "7BITS",
     description: [
@@ -695,7 +722,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/1u1mXeqcf-VqEXdsasT8xlhta5CO3zw6y8MZbYkfDTx8/viewform?edit_requested=true",
   },
   {
-    id: 22,
+    id: 23,
     image: GamingZone,
     name: "GAMING ARENA",
     description:
@@ -730,7 +757,7 @@ export const eventsData = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf6i9W6BTw4ff8a_rqLpeb2NRnsYdFjx7DKqqzbXlEGoejqaA/viewform",
   },
   {
-    id: 23,
+    id: 24,
     image: KeynoteSession,
     name: "KEYNOTE SESSION",
     description: "",
@@ -745,7 +772,7 @@ export const eventsData = [
     link: "",
   },
   {
-    id: 24,
+    id: 25,
     image: SupercarShow,
     name: "SUPERCAR SHOW",
     description: "A car show is where car enthusiasts gather to showcase and admire various cars, including vintage, classic, modern, JDM, and tuned models. JDM cars are Japanese domestic market vehicles that are highly sought after for their performance and style. Car shows offer a chance for owners to display their prized possessions and for the public to appreciate the beauty and innovation of automobiles.",
@@ -760,51 +787,26 @@ export const eventsData = [
     link: "",
   },
   {
-    id: 25,
-    image: SpinningRival,
-    name: "SPINNING RIVAL",
+    id: 26,
+    image: SpaceExpo,
+    name: "SPACE TECH",
     description:
-      "two challengers go head-to-head in a 1v1 competition. The question to be attempted is randomly chose using “SPIN the WHEEL”. Coding question present on the Spin Wheel.",
-    rules: [
-      "At a time two participants should be present while spinning the wheel.",
-      "When spinning wheel stops, it will indicate to a special coding problem.",
-      "An indication will be provided to start solving the coding problem for the two rivals.",
-      "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
-    ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+      "Space expo will be a presentation of highly appreciated space models from all space Organizations. n this event we will showcase models of launch vehicles like GSLV,  PSLV from ISRO. Likewise the high end missions like Mars orbiter mission, Chandrayaan 2, ASTROSAT will be detailed and showcased by multiple models and informative banners. Major satellites like Parker Solar Probe, Hubble Telescope, Astrosat, Sputnik will be discussed and their models will be showcased.",
+    rules: ["NA"],
+    prizes: ["NA"],
     team: "Individual",
     fees: "Free",
     contactInfo: [
-      "Vedika Sangle : 9578907935",
-      "Utkarsha Kesarkar : 7887440601",
+      "Paras Dhongade  : 7798647910",
+      "Shriraksha SN   : 8767997653",
     ],
-    location: "A WING",
-    date: "20th FEB",
-    note: [""],
-    link: "",
-  },
-  {
-    id: 26,
-    image: TreasureHunt,
-    name: "TREASURE HUNT",
-    description:
-      "During a logical questions treasure hunt, participants will be given a series of clues or challenges that require logical thinking and problem-solving skills. These clues will be delivered through a variety of formats, such as puzzles, riddles, or logic games, and will require participants to use their critical thinking and reasoning abilities to solve them. As participants solve each clue, they will be led to the next one until they reach the final treasure.",
-    rules: [
-      "All teams must have at least 2 members and no more than 4 members. Prior Registraations must be given.",
-      "Do not open and view the clues prior to the announcement that the hunt has started.",
-      "Teams must stay together during the Treasure Hunt and are encouraged to work together to solve the clues and retrieve the points from each location. Teams are encouraged to bring along a notepad so that they can note the answer once they’ve solved the clues.",
-      "Teams will be scored on the total value of the clues collected and the amount of time taken. Once all coins are collected teams must return to the finish in order to be counted as finished. Point values will be determined based on the difficulty of the clue.",
-      "Teams may or may not use smartphones or mobile internet devices.",
-      "The Treasure Hunt begins at 1:00 p.m.",
+    location: "Center Lawn",
+    date: "20th and 21st Feb (10:00am onwards)",
+    note: [
+      "Quiz will be conducted regarding space technology, few lucky winners will get exciting goodies and gifts",
     ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "Individual",
-    fees: "Free",
-    contactInfo: ["Vaishnavi Varkur : 8828090518"],
-    location: "A WING",
-    date: "21th FEB (Full Day)",
-    note: [""],
     link: "",
+    onSpot: "true",
   },
   {
     id: 27,
