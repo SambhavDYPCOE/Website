@@ -297,10 +297,10 @@ export const eventsData = [
     rules: [
       "Get ready to embark on a thrilling digital adventure! This online treasure hunt will take you on a journey through the web as you decode clues, complete challenges and discover hidden treasures, work your way through the puzzle and be crowned the ultimate champion!",
       "Disclaimer :",
-      "Participants will receive a clue at the beginning of the game that will lead them to the first website.",
-      "Once the participant arrives at the website, they must decode the clue to find the next website.",
-      "Participant must repeat the process until they have visited all the websites and collected all the rules.",
-      "One who completes all tasks and collects all the clues in shortest amount of time will be declared as winner.",
+      "The participant will receive a clue about: ",
+      "The website to be visited.",
+      "The element which is required to be found on the website.",
+      "Participant is required to enter the element in the entry box for verification and get clue for further websites.",
       "Accessing sites not related to game will result in disqualification.",
     ],
     prizes: [
@@ -331,8 +331,9 @@ export const eventsData = [
       "Two participants will take turns writing lines of code to solve a given problem statement.",
       "In stage 1 partners are allowed to discuss while coding.",
       "In stage 2 partners are not allowed to discuss while coding . Instead they will be given a set amount of time before starting to plan their approach.",
+      "In stage 3 partners are not at all allowed to discuss while and before coding.",
       "Lines of code will be visible only to the person who is writing them and not to their partner.",
-      "Both stages will contain basic and easy problem statements.",
+      "All stages will contain basic and easy problem statements.",
       "Successful execution of code results in a win.",
     ],
     prizes: [
