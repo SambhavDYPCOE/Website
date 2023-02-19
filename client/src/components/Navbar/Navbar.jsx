@@ -107,8 +107,8 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <Link className={classes.homeLink} to="/schedule">
-                  Schedule
+                <Link className={classes.homeLink} to="/leaderboard">
+                  Leaderboard
                 </Link>
               </Drop>
             </li>
@@ -239,8 +239,8 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <Link className={classes.homeLink} to="/schedule">
-                  Schedule
+                <Link className={classes.homeLink} to="/leaderboard">
+                  Leaderboard
                 </Link>
               </Drop>
             </li>

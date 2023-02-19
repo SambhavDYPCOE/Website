@@ -7,7 +7,7 @@ import MainEvents from "./components/MainEvents/MainEvents";
 // import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
-import Schedule from "./pages/Schedule";
+import Leaderboard from "./pages/Leaderboard";
 import AboutPage from "./pages/AboutPage";
 import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
@@ -62,7 +62,7 @@ const App = () => {
             <Route path="/" element={<Homepage />} />
             <Route path="/events" element={<MainEvents />} />
             <Route path="/events/:eventId" element={<SingleEventPage />} />
-            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/leaderboard" element={<Leaderboard />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<ContactUs />} />
