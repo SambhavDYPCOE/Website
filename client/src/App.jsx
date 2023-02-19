@@ -3,6 +3,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 // import Button from "./components/common/Button/Button";
 import Navbar from "../src/components/Navbar/Navbar";
 import Footer from "../src/components/Footer/Footer";
+import Hidden from "../src/components/Hidden/Hidden";
 import MainEvents from "./components/MainEvents/MainEvents";
 // import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
@@ -66,6 +67,7 @@ const App = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/hidden" element={<Hidden/>} />
             {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
             {/* <Route path="/" element={<Landing />}></Route>  */}
