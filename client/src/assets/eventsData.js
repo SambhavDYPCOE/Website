@@ -144,7 +144,7 @@ export const eventsData = [
       "Vishakha Gaurakar : 9158615935",
     ],
     location: "A Building Entrance",
-    date: "21 Feb",
+    date: "20 Feb",
     note: "",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
     onSpot: "",
