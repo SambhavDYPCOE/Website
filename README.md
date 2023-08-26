@@ -9,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align = "center">
-<img src = "client/src/components/Hero/Hero.svg">
+<img src = "client/src/assets/Logo.png">
   </div>
 
 
