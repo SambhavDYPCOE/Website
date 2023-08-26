@@ -8,9 +8,9 @@
  -->
 <!-- PROJECT LOGO -->
 <br />
-<!-- <div align = "center">
+<div align = "center">
 <img src = "client/src/components/Hero/Hero.svg">
-  </div> -->
+  </div>
 
 
 
