@@ -17,11 +17,17 @@
 
 ## About Us 🚀
 
+<div>
+ <div>
 Sambhav is a technical festival offering a diverse range of events and competitions focused on technology and innovation. 
 It provides a platform for individuals to showcase their skills, learn from others, and foster creativity, teamwork, 
 and problem-solving abilities. By exposing attendees to the latest advancements in technology, Sambhav helps broaden 
 their knowledge and skillset, making it a fun, engaging, and enriching experience for all attendees. Get ready to be 
-a part of the biggest technical extravaganza of the year 2k23 – Sambhav!
+a part of the biggest technical extravaganza of the year 2k23 – Sambhav!</div>
+ <div>
+  <img src = "client/src/components/About/about.svg">
+ </div>
+</div>
 
 <br>
 Events:
